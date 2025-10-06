@@ -76,7 +76,7 @@ python export_db-graphrag.py
 
 ---
 
-### 📦 使用 Neo4j 建立圖形資料庫
+### 📦 使用 Neo4j 建立圖形資料庫 (neo4jdemo/ 底下運行)
 
 #### 初始化
 啟動 Neo4j Docker 容器
