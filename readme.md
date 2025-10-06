@@ -65,14 +65,14 @@ graphrag query --root graphragdemo/ --method global --query "請用要點總結�
 graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理的能源中心"
 ```
 
-#### 匯出與檢視 GraphRAG 資料庫 (專案目錄 運行)
+#### 匯出與檢視 GraphRAG 資料庫 (check/ 運行)
 
 ```
 python export_db-graphrag.py
 ```
 
 #### Visualizing and Debugging
-> 官方文件請參考: [Visualization Guide](https://microsoft.github.io/graphrag/visualization_guide/)
+> 可參考: [Visualization Guide](https://microsoft.github.io/graphrag/visualization_guide/)
 
 ---
 
@@ -135,7 +135,7 @@ OPTIONS {
 python neo4jdemo/demo_build_graph.py "請解釋 AI 管理的能源中心"
 ```
 
-#### 匯出現有的圖形資料庫 (專案目錄 運行)
+#### 匯出現有的圖形資料庫 (check/ 運行)
 
 ```
 python export_graph-neo4j.py
