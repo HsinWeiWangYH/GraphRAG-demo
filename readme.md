@@ -71,7 +71,7 @@ graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理�
 python export_db-graphrag.py
 ```
 
-#### 視覺化與除錯
+#### Visualizing and Debugging
 > 官方文件請參考: [Visualization Guide](https://microsoft.github.io/graphrag/visualization_guide/)
 
 ---
@@ -121,6 +121,10 @@ OPTIONS {
     `vector.similarity_function`: 'cosine'
   }
 };
+```
+完成後離開：
+```
+: exit
 ```
 
 #### 執行查詢
