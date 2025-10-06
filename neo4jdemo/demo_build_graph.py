@@ -24,7 +24,7 @@ def build_knowledge_graph():
     driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASS))
 
     llm = OllamaLLM(
-        model_name="qwen3:14b",
+        model_name=LLM_MODEL,
         model_params={
             "temperature": 0,
             "format": "json",

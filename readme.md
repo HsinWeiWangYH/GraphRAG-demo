@@ -20,7 +20,7 @@ pip install -r requirements.txt
 Ollama (https://ollama.ai/)
 ```
 curl -fsSL https://ollama.com/install.sh | sh
-ollama pull qwen3:4b
+ollama pull qwen3:14b
 ollama pull bge-m3
 ```
 
