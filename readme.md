@@ -55,12 +55,14 @@ cp data/*.txt graphragdemo/input/
 
 #### 修改 ollama 參數
 參考 ms-graphrag-example/
+
 修改 `graphragdemo/settings.yaml` 與 `.env` 參數。
+
 將 ms-graphrag/graphrag/query/structured_search/local_search/search.py 內容用 ms-graphrag-example/search_local.py 替換
+
 將 ms-graphrag/graphrag/query/structured_search/global_search/search.py 內容用 ms-graphrag-example/search_global.py 替換
 
-以下程式碼 會在search完後自動終止
-若希望產生 回答 請註解
+以下程式碼 會在search完後自動終止，若希望產生 回答 請註解：
 ```
 sys.exit("All results have been successfully retrieved and saved to ms-graphrag-results. Execution stopped.") 
 ```
