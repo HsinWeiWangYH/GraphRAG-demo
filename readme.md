@@ -114,6 +114,7 @@ ms-graphrag-results/graphrag_results.json 儲存 查詢結果 json 檔案
 ]
 ```
 將 graphrag_eval_ntnu/eval_graphrag.py 跟 ms-graphrag-example/run-eval.py 放在一起
+
 運行 ms-graphrag-example/run-eval.py 
 
 #### 匯出與檢視 GraphRAG 資料庫 (check/ 運行)
