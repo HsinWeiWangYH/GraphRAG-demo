@@ -1,0 +1,119 @@
+{
+  "能源中心與智慧電網.txt": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-780885d3488524aa612424d934a12bea",
+      "chunk-baeb0e2683b5ce996f75069358c70bc6",
+      "chunk-0e1fb1697b96aac6ca56af809a7a706d",
+      "chunk-98edab2bedb985603fbc7f84904fcf81",
+      "chunk-d54fb97354ce8f6c2272949a2dce602d",
+      "chunk-21e95a5787bb300e174f44fc6773c827",
+      "chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a",
+      "chunk-81197c2d02b3a7c54cbd498ce55a73c8"
+    ],
+    "content_summary": "在未來城市的核心區，有一座由 AI 管理的能源中心。它連接無數太陽能板、風力渦輪與儲能系統，透過智慧電網自動調整供電。AI 會根據天氣預測與城市用電模式動態分配能源，使整個城市幾乎不再依賴傳統燃料。能源資料即時上傳至雲端，用於後續決策分析。",
+    "content_length": 120,
+    "created_at": "2025-10-14T08:37:28.431621+00:00",
+    "updated_at": "2025-10-14T08:57:13.965568+00:00",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "track_id": "insert_20251014_163728_923acd68",
+    "metadata": {
+      "processing_start_time": 1760431608,
+      "processing_end_time": 1760432233
+    }
+  },
+  "雲端資料與城市模型.txt": {
+    "status": "processed",
+    "chunks_count": 8,
+    "chunks_list": [
+      "chunk-20a883888d6e6da576d9ed5799f51f82",
+      "chunk-dc23edefa3222c7e1f133fef484a9781",
+      "chunk-b0c54f369c803b8f3a3713f8be2e7886",
+      "chunk-0db6d0e150ebb29a169cbf3ed947c162",
+      "chunk-1ab307d7c9fb2e7390c131fecbbb093c",
+      "chunk-cb8b67610b2e866a38483b1c8cf98192",
+      "chunk-fa9cb72811d1150610f44d9fef96caba",
+      "chunk-81197c2d02b3a7c54cbd498ce55a73c8"
+    ],
+    "content_summary": "所有基礎設施的運作數據都匯入雲端資料庫。城市的 AI 模型不斷學習這些資訊，模擬能源消耗、交通趨勢與人口活動。資料科學家與政策制定者可在圖形化儀表板上觀察模型變化，甚至用它預測未來五年的能源需求。這個雲端系統也是所有 AI 助理的學習基礎。",
+    "content_length": 120,
+    "created_at": "2025-10-14T08:38:19.352977+00:00",
+    "updated_at": "2025-10-14T08:57:56.617040+00:00",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "track_id": "insert_20251014_163819_e206b1f7",
+    "metadata": {
+      "processing_start_time": 1760431608,
+      "processing_end_time": 1760432276
+    }
+  },
+  "自駕交通與能源整合.txt": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-95ae7b1b40c69518b62e899cbc159a80",
+      "chunk-e51ef04049befa5a4f435dc76d642507",
+      "chunk-cbf263292bd9d2d51a3cecc79266412c",
+      "chunk-cd1c19cf4e7a3c4c12828f8710a1bf49",
+      "chunk-d77b85f67d8545f7d9d9d0c2f08951f8",
+      "chunk-92ce7e2ac1ee827e24cbddcd0827d402",
+      "chunk-cb78a44977dc8f4b53ea5d9b1de03249"
+    ],
+    "content_summary": "城市的交通系統完全自動化。每輛自駕車都裝有感測器與 AI 模組，能與中央交通伺服器通訊。當車輛電量不足時，系統會自動導航至能源中心附近的快速充電站。AI 還能根據交通流量、能源需求與天氣條件，協調整個城市的移動效率，讓交通與能源緊密結合。",
+    "content_length": 119,
+    "created_at": "2025-10-14T08:38:19.517461+00:00",
+    "updated_at": "2025-10-14T09:08:59.175654+00:00",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "track_id": "insert_20251014_163819_d7eb7253",
+    "metadata": {
+      "processing_start_time": 1760432234,
+      "processing_end_time": 1760432939
+    }
+  },
+  "公民AI助理的角色.txt": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-197b44a9ab3ec13c1fc107b407614153",
+      "chunk-67fa9cfe1b510625e6077a975e5ac8b2",
+      "chunk-ec21914d8f0fba3cf115a0d1985925ef",
+      "chunk-8092ed93e79d2eda500f1dbe41548c7f",
+      "chunk-5b01ab536505f871246e840bf6212428",
+      "chunk-67889f9c59eaba99a839486e0f8374c9",
+      "chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec"
+    ],
+    "content_summary": "每位市民都有個人化的 AI 助理，能分析其生活模式並提供節能、健康與出行建議。當助理偵測到城市交通壅塞或能源尖峰時，會主動建議使用大眾運輸或調整家電用電時間。這些助理與城市雲端模型同步更新，使個人行為與整體城市運作形成正向循環。",
+    "content_length": 114,
+    "created_at": "2025-10-14T08:38:19.678566+00:00",
+    "updated_at": "2025-10-14T09:10:13.489619+00:00",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "track_id": "insert_20251014_163819_03422bb2",
+    "metadata": {
+      "processing_start_time": 1760432276,
+      "processing_end_time": 1760433013
+    }
+  },
+  "政策與永續決策委員會.txt": {
+    "status": "processed",
+    "chunks_count": 7,
+    "chunks_list": [
+      "chunk-f9da756f2ddae291698775218f4a8106",
+      "chunk-0e448ab5dd5060530851a569d04fa8c2",
+      "chunk-de69eaf6daa940c78737f99950efcf1d",
+      "chunk-d5edadc5b8bd3927a0b9de3fb2b64256",
+      "chunk-60efa47a9588fffe56a77d9403dbaa0b",
+      "chunk-5ca3a361bf8a3629e7b7faf0314c7808",
+      "chunk-ef59e6cbf873762ec0f5e7f82db9f651"
+    ],
+    "content_summary": "城市的永續發展委員會依賴 AI 模擬平台來制定政策。透過模擬不同策略，委員會能預測新法規對能源中心、交通網絡與市民生活的影響。決策過程透明公開，AI 提供的報告與模型結果皆可供公民查閱。這種結合科技與治理的方式，讓城市更具韌性與效率。",
+    "content_length": 117,
+    "created_at": "2025-10-14T08:38:19.835727+00:00",
+    "updated_at": "2025-10-14T09:16:08.265518+00:00",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "track_id": "insert_20251014_163819_ed872bfb",
+    "metadata": {
+      "processing_start_time": 1760432939,
+      "processing_end_time": 1760433368
+    }
+  }
+}

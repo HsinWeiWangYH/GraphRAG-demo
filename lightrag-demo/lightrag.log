@@ -1,0 +1,390 @@
+2025-10-14 16:05:30,760 - lightrag - INFO - Creating working directory ./my_lightrag_dir
+2025-10-14 16:05:34,980 - lightrag - INFO - [_] Created new empty graph file: ./my_lightrag_dir/graph_chunk_entity_relation.graphml
+2025-10-14 16:05:35,009 - lightrag - INFO - [_] Process 128140 KV load full_docs with 0 records
+2025-10-14 16:05:35,014 - lightrag - INFO - [_] Process 128140 KV load text_chunks with 0 records
+2025-10-14 16:05:35,021 - lightrag - INFO - [_] Process 128140 KV load full_entities with 0 records
+2025-10-14 16:05:35,029 - lightrag - INFO - [_] Process 128140 KV load full_relations with 0 records
+2025-10-14 16:05:35,036 - lightrag - INFO - [_] Process 128140 KV load llm_response_cache with 0 records
+2025-10-14 16:05:35,041 - lightrag - INFO - [_] Process 128140 doc status load doc_status with 0 records
+2025-10-14 16:05:35,044 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:05:35,063 - lightrag - INFO - Processing 1 document(s)
+2025-10-14 16:05:35,066 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-10-14 16:05:35,068 - lightrag - INFO - Processing d-id: doc-76fed90b02cc3bb0b0cc38913c38aa30
+2025-10-14 16:05:35,081 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:05:37,015 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-14 16:07:04,379 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:07:04,435 - lightrag - INFO - [_] Process 128347 KV load full_docs with 5 records
+2025-10-14 16:07:04,454 - lightrag - INFO - [_] Process 128347 KV load text_chunks with 5 records
+2025-10-14 16:07:04,463 - lightrag - INFO - [_] Process 128347 KV load full_entities with 5 records
+2025-10-14 16:07:04,472 - lightrag - INFO - [_] Process 128347 KV load full_relations with 5 records
+2025-10-14 16:07:04,482 - lightrag - INFO - [_] Process 128347 KV load llm_response_cache with 11 records
+2025-10-14 16:07:04,492 - lightrag - INFO - [_] Process 128347 doc status load doc_status with 5 records
+2025-10-14 16:07:04,494 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:07:04,519 - lightrag - INFO - Processing 1 document(s)
+2025-10-14 16:07:04,522 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2025-10-14 16:07:04,524 - lightrag - INFO - Processing d-id: doc-76fed90b02cc3bb0b0cc38913c38aa30
+2025-10-14 16:07:04,537 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:07:04,839 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-14 16:07:16,858 - lightrag - INFO -  == LLM cache == saving: default:extract:f258d4b51fddd503d9e5983298b5a4a0
+2025-10-14 16:08:31,516 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:08:31,546 - lightrag - INFO - [_] Process 128535 KV load full_docs with 6 records
+2025-10-14 16:08:31,548 - lightrag - INFO - [_] Process 128535 KV load text_chunks with 5 records
+2025-10-14 16:08:31,551 - lightrag - INFO - [_] Process 128535 KV load full_entities with 5 records
+2025-10-14 16:08:31,554 - lightrag - INFO - [_] Process 128535 KV load full_relations with 5 records
+2025-10-14 16:08:31,558 - lightrag - INFO - [_] Process 128535 KV load llm_response_cache with 11 records
+2025-10-14 16:08:31,567 - lightrag - INFO - [_] Process 128535 doc status load doc_status with 6 records
+2025-10-14 16:08:31,570 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:08:31,574 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-14 16:09:02,261 - lightrag - INFO -  == LLM cache == saving: global:keywords:b33898337a87758650f68cb1817fe2e9
+2025-10-14 16:09:02,479 - lightrag - INFO - Query edges: Main features, LightRAG characteristics (top_k:40, cosine:0.2)
+2025-10-14 16:09:02,480 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:09:02,733 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:09:02,736 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:09:02,742 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:09:02,746 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:09:02,749 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:09:02,751 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:09:02,758 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:09:02,761 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:09:02,764 - lightrag - INFO - Final chunks S+F/O: E9/1 E11/2 E14/3 E6/4 E10/5
+2025-10-14 16:09:07,446 - lightrag - INFO -  == LLM cache == saving: global:query:3742c7c11ef24ed4dd3482951d4d7957
+2025-10-14 16:11:05,707 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:11:06,229 - lightrag - INFO - [_] Process 128738 KV load full_docs with 6 records
+2025-10-14 16:11:06,239 - lightrag - INFO - [_] Process 128738 KV load text_chunks with 5 records
+2025-10-14 16:11:06,250 - lightrag - INFO - [_] Process 128738 KV load full_entities with 5 records
+2025-10-14 16:11:06,259 - lightrag - INFO - [_] Process 128738 KV load full_relations with 5 records
+2025-10-14 16:11:06,272 - lightrag - INFO - [_] Process 128738 KV load llm_response_cache with 13 records
+2025-10-14 16:11:06,281 - lightrag - INFO - [_] Process 128738 doc status load doc_status with 6 records
+2025-10-14 16:11:06,285 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:11:06,291 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-14 16:11:18,492 - lightrag - INFO -  == LLM cache == saving: global:keywords:46f120c14ccb64ce88feab6d4381e1c8
+2025-10-14 16:11:18,693 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:11:18,696 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:11:18,897 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:11:18,901 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:11:18,912 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:11:18,919 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:11:18,924 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:11:18,930 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:11:18,936 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:11:18,939 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:11:18,941 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:11:37,309 - lightrag - INFO -  == LLM cache == saving: global:query:205728d14fd5356c4862a625761c301f
+2025-10-14 16:12:43,406 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:12:43,448 - lightrag - INFO - [_] Process 128940 KV load full_docs with 6 records
+2025-10-14 16:12:43,456 - lightrag - INFO - [_] Process 128940 KV load text_chunks with 5 records
+2025-10-14 16:12:43,463 - lightrag - INFO - [_] Process 128940 KV load full_entities with 5 records
+2025-10-14 16:12:43,472 - lightrag - INFO - [_] Process 128940 KV load full_relations with 5 records
+2025-10-14 16:12:43,485 - lightrag - INFO - [_] Process 128940 KV load llm_response_cache with 15 records
+2025-10-14 16:12:43,492 - lightrag - INFO - [_] Process 128940 doc status load doc_status with 6 records
+2025-10-14 16:12:43,496 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:12:43,754 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:12:43,757 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:12:43,971 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:12:43,975 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:12:43,984 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:12:43,991 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:12:43,998 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:12:44,004 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:12:44,010 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:12:44,014 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:12:44,020 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:12:44,031 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-14 16:12:44,034 - lightrag - ERROR - Query failed: name 'data' is not defined
+2025-10-14 16:13:11,416 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:13:11,438 - lightrag - INFO - [_] Process 129071 KV load full_docs with 6 records
+2025-10-14 16:13:11,441 - lightrag - INFO - [_] Process 129071 KV load text_chunks with 5 records
+2025-10-14 16:13:11,443 - lightrag - INFO - [_] Process 129071 KV load full_entities with 5 records
+2025-10-14 16:13:11,446 - lightrag - INFO - [_] Process 129071 KV load full_relations with 5 records
+2025-10-14 16:13:11,451 - lightrag - INFO - [_] Process 129071 KV load llm_response_cache with 15 records
+2025-10-14 16:13:11,454 - lightrag - INFO - [_] Process 129071 doc status load doc_status with 6 records
+2025-10-14 16:13:11,457 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:13:11,698 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:13:11,700 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:13:11,933 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:13:11,940 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:13:11,949 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:13:11,957 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:13:11,962 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:13:11,968 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:13:11,980 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:13:11,987 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:13:11,995 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:13:12,015 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-14 16:13:12,024 - lightrag - ERROR - Query failed: name 'data' is not defined
+2025-10-14 16:13:27,408 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:13:27,426 - lightrag - INFO - [_] Process 129138 KV load full_docs with 6 records
+2025-10-14 16:13:27,429 - lightrag - INFO - [_] Process 129138 KV load text_chunks with 5 records
+2025-10-14 16:13:27,431 - lightrag - INFO - [_] Process 129138 KV load full_entities with 5 records
+2025-10-14 16:13:27,434 - lightrag - INFO - [_] Process 129138 KV load full_relations with 5 records
+2025-10-14 16:13:27,438 - lightrag - INFO - [_] Process 129138 KV load llm_response_cache with 15 records
+2025-10-14 16:13:27,440 - lightrag - INFO - [_] Process 129138 doc status load doc_status with 6 records
+2025-10-14 16:13:27,443 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:13:27,682 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:13:27,684 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:13:27,864 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:13:27,866 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:13:27,873 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:13:27,879 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:13:27,881 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:13:27,884 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:13:27,890 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:13:27,893 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:13:27,895 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:13:27,905 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-14 16:16:54,640 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:16:54,704 - lightrag - INFO - [_] Process 129417 KV load full_docs with 6 records
+2025-10-14 16:16:54,713 - lightrag - INFO - [_] Process 129417 KV load text_chunks with 5 records
+2025-10-14 16:16:54,722 - lightrag - INFO - [_] Process 129417 KV load full_entities with 5 records
+2025-10-14 16:16:54,731 - lightrag - INFO - [_] Process 129417 KV load full_relations with 5 records
+2025-10-14 16:16:54,742 - lightrag - INFO - [_] Process 129417 KV load llm_response_cache with 15 records
+2025-10-14 16:16:54,751 - lightrag - INFO - [_] Process 129417 doc status load doc_status with 6 records
+2025-10-14 16:16:54,753 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:16:55,012 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:16:55,014 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:16:55,263 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:16:55,265 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:16:55,272 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:16:55,278 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:16:55,280 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:16:55,282 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:16:55,288 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:16:55,291 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:16:55,294 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:16:55,303 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-14 16:22:42,644 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 55 nodes, 44 edges
+2025-10-14 16:22:42,692 - lightrag - INFO - [_] Process 129796 KV load full_docs with 6 records
+2025-10-14 16:22:42,759 - lightrag - INFO - [_] Process 129796 KV load text_chunks with 5 records
+2025-10-14 16:22:42,768 - lightrag - INFO - [_] Process 129796 KV load full_entities with 5 records
+2025-10-14 16:22:42,776 - lightrag - INFO - [_] Process 129796 KV load full_relations with 5 records
+2025-10-14 16:22:42,788 - lightrag - INFO - [_] Process 129796 KV load llm_response_cache with 15 records
+2025-10-14 16:22:42,799 - lightrag - INFO - [_] Process 129796 doc status load doc_status with 6 records
+2025-10-14 16:22:42,801 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-14 16:22:44,782 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:40, cosine:0.2)
+2025-10-14 16:22:44,782 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-14 16:22:45,044 - lightrag - INFO - Global query: 48 entites, 40 relations
+2025-10-14 16:22:45,046 - lightrag - INFO - Raw search results: 48 entities, 40 relations, 0 vector chunks
+2025-10-14 16:22:45,053 - lightrag - INFO - After truncation: 48 entities, 40 relations
+2025-10-14 16:22:45,058 - lightrag - INFO - Selecting 5 from 5 entity-related chunks by vector similarity
+2025-10-14 16:22:45,061 - lightrag - INFO - Find no additional relations-related chunks from 40 relations
+2025-10-14 16:22:45,063 - lightrag - INFO - Round-robin merged chunks: 5 -> 5 (deduplicated 0)
+2025-10-14 16:22:45,069 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-14 16:22:45,072 - lightrag - INFO - Final context: 48 entities, 40 relations, 5 chunks
+2025-10-14 16:22:45,074 - lightrag - INFO - Final chunks S+F/O: E14/1 E10/2 E7/3 E11/4 E8/5
+2025-10-14 16:22:45,084 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 05:26:16,877 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 05:26:16,931 - lightrag - INFO - [_] Process 157820 KV load full_docs with 5 records
+2025-10-15 05:26:16,967 - lightrag - INFO - [_] Process 157820 KV load text_chunks with 36 records
+2025-10-15 05:26:16,976 - lightrag - INFO - [_] Process 157820 KV load full_entities with 5 records
+2025-10-15 05:26:16,985 - lightrag - INFO - [_] Process 157820 KV load full_relations with 5 records
+2025-10-15 05:26:17,007 - lightrag - INFO - [_] Process 157820 KV load llm_response_cache with 72 records
+2025-10-15 05:26:17,016 - lightrag - INFO - [_] Process 157820 doc status load doc_status with 5 records
+2025-10-15 05:26:17,019 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 05:26:17,024 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-15 05:26:27,697 - lightrag - INFO -  == LLM cache == saving: global:keywords:46f120c14ccb64ce88feab6d4381e1c8
+2025-10-15 05:26:29,431 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 05:26:29,434 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 05:26:29,679 - lightrag - INFO - Global query: 16 entites, 10 relations
+2025-10-15 05:26:29,682 - lightrag - INFO - Raw search results: 16 entities, 10 relations, 0 vector chunks
+2025-10-15 05:26:29,685 - lightrag - INFO - After truncation: 16 entities, 10 relations
+2025-10-15 05:26:29,689 - lightrag - INFO - Selecting 11 from 11 entity-related chunks by vector similarity
+2025-10-15 05:26:29,692 - lightrag - INFO - Find no additional relations-related chunks from 10 relations
+2025-10-15 05:26:29,694 - lightrag - INFO - Round-robin merged chunks: 11 -> 11 (deduplicated 0)
+2025-10-15 05:26:29,697 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 05:26:29,700 - lightrag - INFO - Final context: 16 entities, 10 relations, 3 chunks
+2025-10-15 05:26:29,702 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 05:26:45,398 - lightrag - INFO -  == LLM cache == saving: global:query:579aded5486f790d5a9ff9e7f05d67d1
+2025-10-15 05:32:01,674 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 05:32:01,726 - lightrag - INFO - [_] Process 158372 KV load full_docs with 5 records
+2025-10-15 05:32:01,735 - lightrag - INFO - [_] Process 158372 KV load text_chunks with 36 records
+2025-10-15 05:32:01,744 - lightrag - INFO - [_] Process 158372 KV load full_entities with 5 records
+2025-10-15 05:32:01,753 - lightrag - INFO - [_] Process 158372 KV load full_relations with 5 records
+2025-10-15 05:32:01,774 - lightrag - INFO - [_] Process 158372 KV load llm_response_cache with 74 records
+2025-10-15 05:32:01,783 - lightrag - INFO - [_] Process 158372 doc status load doc_status with 5 records
+2025-10-15 05:32:01,785 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 05:32:03,736 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 05:32:03,739 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 05:32:03,978 - lightrag - INFO - Global query: 16 entites, 10 relations
+2025-10-15 05:32:03,980 - lightrag - INFO - Raw search results: 16 entities, 10 relations, 0 vector chunks
+2025-10-15 05:32:03,985 - lightrag - INFO - After truncation: 16 entities, 10 relations
+2025-10-15 05:32:03,989 - lightrag - INFO - Selecting 11 from 11 entity-related chunks by vector similarity
+2025-10-15 05:32:03,991 - lightrag - INFO - Find no additional relations-related chunks from 10 relations
+2025-10-15 05:32:03,993 - lightrag - INFO - Round-robin merged chunks: 11 -> 11 (deduplicated 0)
+2025-10-15 05:32:03,997 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 05:32:03,999 - lightrag - INFO - Final context: 16 entities, 10 relations, 3 chunks
+2025-10-15 05:32:04,002 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 05:32:04,007 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 05:56:53,526 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 05:56:53,569 - lightrag - INFO - [_] Process 160634 KV load full_docs with 5 records
+2025-10-15 05:56:53,576 - lightrag - INFO - [_] Process 160634 KV load text_chunks with 36 records
+2025-10-15 05:56:53,582 - lightrag - INFO - [_] Process 160634 KV load full_entities with 5 records
+2025-10-15 05:56:53,589 - lightrag - INFO - [_] Process 160634 KV load full_relations with 5 records
+2025-10-15 05:56:53,609 - lightrag - INFO - [_] Process 160634 KV load llm_response_cache with 75 records
+2025-10-15 05:56:53,615 - lightrag - INFO - [_] Process 160634 doc status load doc_status with 5 records
+2025-10-15 05:56:53,618 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 05:56:53,918 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 05:56:53,921 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 05:56:54,159 - lightrag - INFO - Global query: 16 entites, 10 relations
+2025-10-15 05:56:54,159 - lightrag - INFO - Raw search results: 16 entities, 10 relations, 0 vector chunks
+2025-10-15 05:56:54,163 - lightrag - INFO - After truncation: 16 entities, 10 relations
+2025-10-15 05:56:54,167 - lightrag - INFO - Selecting 11 from 11 entity-related chunks by vector similarity
+2025-10-15 05:56:54,169 - lightrag - INFO - Find no additional relations-related chunks from 10 relations
+2025-10-15 05:56:54,171 - lightrag - INFO - Round-robin merged chunks: 11 -> 11 (deduplicated 0)
+2025-10-15 05:56:54,175 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 05:56:54,177 - lightrag - INFO - Final context: 16 entities, 10 relations, 3 chunks
+2025-10-15 05:56:54,180 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 05:56:54,185 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 06:04:21,670 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:04:21,721 - lightrag - INFO - [_] Process 161067 KV load full_docs with 5 records
+2025-10-15 06:04:21,730 - lightrag - INFO - [_] Process 161067 KV load text_chunks with 36 records
+2025-10-15 06:04:21,739 - lightrag - INFO - [_] Process 161067 KV load full_entities with 5 records
+2025-10-15 06:04:21,748 - lightrag - INFO - [_] Process 161067 KV load full_relations with 5 records
+2025-10-15 06:04:21,770 - lightrag - INFO - [_] Process 161067 KV load llm_response_cache with 75 records
+2025-10-15 06:04:21,780 - lightrag - INFO - [_] Process 161067 doc status load doc_status with 5 records
+2025-10-15 06:04:21,783 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:04:23,699 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 06:04:23,700 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:04:23,966 - lightrag - INFO - Global query: 16 entites, 10 relations
+2025-10-15 06:04:23,969 - lightrag - INFO - Raw search results: 16 entities, 10 relations, 0 vector chunks
+2025-10-15 06:04:23,973 - lightrag - INFO - After truncation: 16 entities, 10 relations
+2025-10-15 06:04:23,977 - lightrag - INFO - Selecting 11 from 11 entity-related chunks by vector similarity
+2025-10-15 06:04:23,979 - lightrag - INFO - Find no additional relations-related chunks from 10 relations
+2025-10-15 06:04:23,981 - lightrag - INFO - Round-robin merged chunks: 11 -> 11 (deduplicated 0)
+2025-10-15 06:04:23,985 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:04:23,988 - lightrag - INFO - Final context: 16 entities, 10 relations, 3 chunks
+2025-10-15 06:04:23,990 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 06:04:23,995 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 06:04:51,001 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:04:51,026 - lightrag - INFO - [_] Process 161154 KV load full_docs with 5 records
+2025-10-15 06:04:51,029 - lightrag - INFO - [_] Process 161154 KV load text_chunks with 36 records
+2025-10-15 06:04:51,031 - lightrag - INFO - [_] Process 161154 KV load full_entities with 5 records
+2025-10-15 06:04:51,034 - lightrag - INFO - [_] Process 161154 KV load full_relations with 5 records
+2025-10-15 06:04:51,050 - lightrag - INFO - [_] Process 161154 KV load llm_response_cache with 75 records
+2025-10-15 06:04:51,052 - lightrag - INFO - [_] Process 161154 doc status load doc_status with 5 records
+2025-10-15 06:04:51,055 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:04:51,060 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-15 06:05:30,868 - lightrag - INFO -  == LLM cache == saving: local:keywords:215721c81a8e0ab4f3290e706307f998
+2025-10-15 06:05:31,113 - lightrag - INFO - Query nodes: AI assistant, Analysis, Personal data, Daily activities, Behavioral patterns (top_k:10, cosine:0.2)
+2025-10-15 06:05:31,115 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:05:31,456 - lightrag - INFO - Local query: 10 entites, 29 relations
+2025-10-15 06:05:31,458 - lightrag - INFO - Raw search results: 10 entities, 29 relations, 0 vector chunks
+2025-10-15 06:05:31,462 - lightrag - INFO - After truncation: 10 entities, 29 relations
+2025-10-15 06:05:31,466 - lightrag - INFO - Selecting 12 from 12 entity-related chunks by vector similarity
+2025-10-15 06:05:31,469 - lightrag - INFO - Find no additional relations-related chunks from 29 relations
+2025-10-15 06:05:31,471 - lightrag - INFO - Round-robin merged chunks: 12 -> 12 (deduplicated 0)
+2025-10-15 06:05:31,475 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:05:31,479 - lightrag - INFO - Final context: 10 entities, 29 relations, 3 chunks
+2025-10-15 06:05:31,481 - lightrag - INFO - Final chunks S+F/O: E1/1 E2/2 E1/3
+2025-10-15 06:05:53,539 - lightrag - INFO -  == LLM cache == saving: local:query:5ac3fdc2ef8d04a6e67985badc92cd93
+2025-10-15 06:09:14,655 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:09:14,706 - lightrag - INFO - [_] Process 161658 KV load full_docs with 5 records
+2025-10-15 06:09:14,715 - lightrag - INFO - [_] Process 161658 KV load text_chunks with 36 records
+2025-10-15 06:09:14,724 - lightrag - INFO - [_] Process 161658 KV load full_entities with 5 records
+2025-10-15 06:09:14,732 - lightrag - INFO - [_] Process 161658 KV load full_relations with 5 records
+2025-10-15 06:09:14,754 - lightrag - INFO - [_] Process 161658 KV load llm_response_cache with 77 records
+2025-10-15 06:09:14,762 - lightrag - INFO - [_] Process 161658 doc status load doc_status with 5 records
+2025-10-15 06:09:14,765 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:09:15,043 - lightrag - INFO - Query nodes: AI assistant, Analysis, Personal data, Daily activities, Behavioral patterns (top_k:10, cosine:0.2)
+2025-10-15 06:09:15,045 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:09:15,243 - lightrag - INFO - Local query: 10 entites, 29 relations
+2025-10-15 06:09:15,245 - lightrag - INFO - Raw search results: 10 entities, 29 relations, 0 vector chunks
+2025-10-15 06:09:15,252 - lightrag - INFO - After truncation: 10 entities, 29 relations
+2025-10-15 06:09:15,256 - lightrag - INFO - Selecting 12 from 12 entity-related chunks by vector similarity
+2025-10-15 06:09:15,258 - lightrag - INFO - Find no additional relations-related chunks from 29 relations
+2025-10-15 06:09:15,261 - lightrag - INFO - Round-robin merged chunks: 12 -> 12 (deduplicated 0)
+2025-10-15 06:09:15,265 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:09:15,267 - lightrag - INFO - Final context: 10 entities, 29 relations, 3 chunks
+2025-10-15 06:09:15,269 - lightrag - INFO - Final chunks S+F/O: E1/1 E2/2 E1/3
+2025-10-15 06:09:15,275 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 06:09:20,170 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:09:20,195 - lightrag - INFO - [_] Process 161727 KV load full_docs with 5 records
+2025-10-15 06:09:20,198 - lightrag - INFO - [_] Process 161727 KV load text_chunks with 36 records
+2025-10-15 06:09:20,201 - lightrag - INFO - [_] Process 161727 KV load full_entities with 5 records
+2025-10-15 06:09:20,203 - lightrag - INFO - [_] Process 161727 KV load full_relations with 5 records
+2025-10-15 06:09:20,219 - lightrag - INFO - [_] Process 161727 KV load llm_response_cache with 77 records
+2025-10-15 06:09:20,221 - lightrag - INFO - [_] Process 161727 doc status load doc_status with 5 records
+2025-10-15 06:09:20,224 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:09:20,476 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 06:09:20,478 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:09:20,681 - lightrag - INFO - Global query: 16 entites, 10 relations
+2025-10-15 06:09:20,683 - lightrag - INFO - Raw search results: 16 entities, 10 relations, 0 vector chunks
+2025-10-15 06:09:20,687 - lightrag - INFO - After truncation: 16 entities, 10 relations
+2025-10-15 06:09:20,690 - lightrag - INFO - Selecting 11 from 11 entity-related chunks by vector similarity
+2025-10-15 06:09:20,693 - lightrag - INFO - Find no additional relations-related chunks from 10 relations
+2025-10-15 06:09:20,695 - lightrag - INFO - Round-robin merged chunks: 11 -> 11 (deduplicated 0)
+2025-10-15 06:09:20,698 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:09:20,701 - lightrag - INFO - Final context: 16 entities, 10 relations, 3 chunks
+2025-10-15 06:09:20,703 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 06:09:20,708 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2025-10-15 06:09:25,938 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:09:25,962 - lightrag - INFO - [_] Process 161791 KV load full_docs with 5 records
+2025-10-15 06:09:25,965 - lightrag - INFO - [_] Process 161791 KV load text_chunks with 36 records
+2025-10-15 06:09:25,994 - lightrag - INFO - [_] Process 161791 KV load full_entities with 5 records
+2025-10-15 06:09:25,996 - lightrag - INFO - [_] Process 161791 KV load full_relations with 5 records
+2025-10-15 06:09:26,012 - lightrag - INFO - [_] Process 161791 KV load llm_response_cache with 77 records
+2025-10-15 06:09:26,015 - lightrag - INFO - [_] Process 161791 doc status load doc_status with 5 records
+2025-10-15 06:09:26,018 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:09:26,022 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-15 06:09:40,842 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:0f8c1abc9d0d4f50d7727b94f754f024
+2025-10-15 06:09:41,047 - lightrag - INFO - Query nodes: Public services, Government policies, Personal data, Community needs, Local regulations (top_k:10, cosine:0.2)
+2025-10-15 06:09:41,050 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:09:41,243 - lightrag - INFO - Local query: 10 entites, 13 relations
+2025-10-15 06:09:41,245 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis functions, Citizen services (top_k:10, cosine:0.2)
+2025-10-15 06:09:41,388 - lightrag - INFO - Global query: 15 entites, 10 relations
+2025-10-15 06:09:41,390 - lightrag - INFO - Raw search results: 24 entities, 22 relations, 0 vector chunks
+2025-10-15 06:09:41,395 - lightrag - INFO - After truncation: 24 entities, 22 relations
+2025-10-15 06:09:41,400 - lightrag - INFO - Selecting 18 from 18 entity-related chunks by vector similarity
+2025-10-15 06:09:41,403 - lightrag - INFO - Find no additional relations-related chunks from 22 relations
+2025-10-15 06:09:41,405 - lightrag - INFO - Round-robin merged chunks: 18 -> 18 (deduplicated 0)
+2025-10-15 06:09:41,409 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:09:41,412 - lightrag - INFO - Final context: 24 entities, 22 relations, 3 chunks
+2025-10-15 06:09:41,414 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E2/3
+2025-10-15 06:09:55,207 - lightrag - INFO -  == LLM cache == saving: hybrid:query:39251f79cbdbed26a8b1a2932cc6853c
+2025-10-15 06:10:00,734 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:10:00,760 - lightrag - INFO - [_] Process 161885 KV load full_docs with 5 records
+2025-10-15 06:10:00,762 - lightrag - INFO - [_] Process 161885 KV load text_chunks with 36 records
+2025-10-15 06:10:00,793 - lightrag - INFO - [_] Process 161885 KV load full_entities with 5 records
+2025-10-15 06:10:00,796 - lightrag - INFO - [_] Process 161885 KV load full_relations with 5 records
+2025-10-15 06:10:00,815 - lightrag - INFO - [_] Process 161885 KV load llm_response_cache with 79 records
+2025-10-15 06:10:00,818 - lightrag - INFO - [_] Process 161885 doc status load doc_status with 5 records
+2025-10-15 06:10:00,821 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:10:00,826 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-15 06:10:29,650 - lightrag - INFO -  == LLM cache == saving: mix:keywords:6f76ca935010137c23e59bafa3518ed1
+2025-10-15 06:10:29,872 - lightrag - INFO - Query nodes: Data analysis, Information processing, Personalized recommendations (top_k:10, cosine:0.2)
+2025-10-15 06:10:29,874 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:10:30,087 - lightrag - INFO - Local query: 10 entites, 18 relations
+2025-10-15 06:10:30,089 - lightrag - INFO - Query edges: Personalized AI assistant, Analysis capabilities, Citizen's AI assistant (top_k:10, cosine:0.2)
+2025-10-15 06:10:30,233 - lightrag - INFO - Global query: 15 entites, 10 relations
+2025-10-15 06:10:30,236 - lightrag - INFO - Naive query: 3 chunks (chunk_top_k:3 cosine:0.2)
+2025-10-15 06:10:30,238 - lightrag - INFO - Raw search results: 22 entities, 24 relations, 3 vector chunks
+2025-10-15 06:10:30,243 - lightrag - INFO - After truncation: 22 entities, 24 relations
+2025-10-15 06:10:30,247 - lightrag - INFO - Selecting 13 from 13 entity-related chunks by vector similarity
+2025-10-15 06:10:30,249 - lightrag - INFO - Find no additional relations-related chunks from 24 relations
+2025-10-15 06:10:30,252 - lightrag - INFO - Round-robin merged chunks: 16 -> 13 (deduplicated 3)
+2025-10-15 06:10:30,256 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:10:30,259 - lightrag - INFO - Final context: 22 entities, 24 relations, 3 chunks
+2025-10-15 06:10:30,261 - lightrag - INFO - Final chunks S+F/O: E3/1 E3/2 E4/3
+2025-10-15 06:10:44,807 - lightrag - INFO -  == LLM cache == saving: mix:query:780061a58552de086a874981060fb15c
+2025-10-15 06:10:54,546 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:10:54,573 - lightrag - INFO - [_] Process 162035 KV load full_docs with 5 records
+2025-10-15 06:10:54,576 - lightrag - INFO - [_] Process 162035 KV load text_chunks with 36 records
+2025-10-15 06:10:54,578 - lightrag - INFO - [_] Process 162035 KV load full_entities with 5 records
+2025-10-15 06:10:54,581 - lightrag - INFO - [_] Process 162035 KV load full_relations with 5 records
+2025-10-15 06:10:54,601 - lightrag - INFO - [_] Process 162035 KV load llm_response_cache with 81 records
+2025-10-15 06:10:54,604 - lightrag - INFO - [_] Process 162035 doc status load doc_status with 5 records
+2025-10-15 06:10:54,606 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:10:54,609 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2025-10-15 06:10:54,868 - lightrag - INFO - Naive query: 3 chunks (chunk_top_k:3 cosine:0.2)
+2025-10-15 06:10:54,872 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2025-10-15 06:10:54,874 - lightrag - INFO - Final context: 3 chunks
+2025-10-15 06:10:54,877 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2025-10-15 06:11:04,871 - lightrag - INFO -  == LLM cache == saving: naive:query:ad7fcf6d36feacb5b477c6983b61bdc6
+2025-10-15 06:11:10,685 - lightrag - INFO - [_] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 102 nodes, 82 edges
+2025-10-15 06:11:10,710 - lightrag - INFO - [_] Process 162148 KV load full_docs with 5 records
+2025-10-15 06:11:10,713 - lightrag - INFO - [_] Process 162148 KV load text_chunks with 36 records
+2025-10-15 06:11:10,716 - lightrag - INFO - [_] Process 162148 KV load full_entities with 5 records
+2025-10-15 06:11:10,718 - lightrag - INFO - [_] Process 162148 KV load full_relations with 5 records
+2025-10-15 06:11:10,738 - lightrag - INFO - [_] Process 162148 KV load llm_response_cache with 82 records
+2025-10-15 06:11:10,741 - lightrag - INFO - [_] Process 162148 doc status load doc_status with 5 records
+2025-10-15 06:11:10,743 - lightrag - INFO - Creating a new event loop in main thread.
+2025-10-15 06:11:10,747 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)

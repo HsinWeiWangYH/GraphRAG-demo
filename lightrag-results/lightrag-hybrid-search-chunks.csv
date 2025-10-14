@@ -1,0 +1,4 @@
+query,reference_id,content,file_path,chunk_id
+市民的個人化的 AI 助理可以分析甚麼事情?,2,每位市民都有個人化的 AI 助理，能分析其生活模式並,./inputs/公民AI助理的角色.txt,chunk-197b44a9ab3ec13c1fc107b407614153
+市民的個人化的 AI 助理可以分析甚麼事情?,1,與市民生活的影響。決策過程透明公開，AI 提供的報,./inputs/政策與永續決策委員會.txt,chunk-d5edadc5b8bd3927a0b9de3fb2b64256
+市民的個人化的 AI 助理可以分析甚麼事情?,1,AI 提供的報告與模型結果皆可供公民查閱。這種結,./inputs/政策與永續決策委員會.txt,chunk-60efa47a9588fffe56a77d9403dbaa0b

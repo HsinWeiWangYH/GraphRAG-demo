@@ -1,8 +1,9 @@
 # GraphRAG x Neo4j Demo
 
-本專案為 使用 Microsoft & Neo4j 建立知識圖譜，並結合 LLM 進行全域與在地語意查詢。
+本專案為 使用 Microsoft & Neo4j & LightRAG 建立知識圖譜，並結合 LLM 進行全域與在地語意查詢。
 * Microsoft (https://github.com/microsoft/graphrag) 
 * Neo4j (https://github.com/neo4j/neo4j-graphrag-python)
+* LightRAG (https://github.com/HKUDS/LightRAG)
 
 ---
 ### 環境設定 與 資料集準備
@@ -80,7 +81,7 @@ graphrag query --root graphragdemo/ --method global --query "請用要點總結�
 graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理的能源中心"
 ```
 
-#### 批次執行每一次查詢
+#### 批次執行每一次查詢 (在根目錄執行)
 寫一個 shell 批次執行 並 將所有結果存在 ms-graphrag-results/
 
 之後轉換成 graphrag_eval_ntnu/eval_graphrag.py 適用格式
@@ -193,6 +194,53 @@ python neo4jdemo/demo_build_graph.py "請解釋 AI 管理的能源中心"
 python export_graph-neo4j.py
 ```
 
+---
+
+### 📦 LightRAG 建立流程 (lightrag-demo/ 底下運行)
+
+#### 初始化與安裝
+ (在根目錄執行)
+```bash
+git clone https://github.com/HKUDS/LightRAG.git
+cd LightRAG/
+pip install -e .
+cd ../
+```
+
+#### 準備資料集
+ (在根目錄執行)
+```bash
+cd ..
+cp -r data/ lightrag-demo/inputs
+```
+#### 修改程式碼 與 設定環境參數
+ (在根目錄執行)
+```bash
+cp lightrag-example/env.example lightrag-demo/.env
+cp lightrag-example/lightrag.py LightRAG/lightrag/lightrag.py
+```
+#### 建立索引 與 查詢
+ (在 lightrag-demo/ 執行)
+索引
+```bash
+cd lightrag-demo
+python build_index.py
+```
+查詢範例
+Query mode used ("local", "global", "hybrid", "mix", "naive", "bypass")
+
+```bash
+python query_rag.py --mode global "請解釋 AI 管理的能源中心"
+```
+#### 批次執行 與 輸出適合評測的格式
+ (在 lightrag-demo/ 執行)
+```bash
+sh run-lightrag.sh
+python ms-graphrag-example/convert_graphrag_results.py
+```
+查詢結果csv儲存到 lightrag-results/
+lightrag-results/graphrag_results.json 儲存 查詢結果 json 檔案可用於評分
+
 -----
 
 ### 架構
@@ -220,4 +268,4 @@ python export_graph-neo4j.py
 
 ---
 
-更新日期：2025-10-06
+更新日期：2025-10-15

@@ -1,0 +1,1489 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d11" for="edge" attr.name="created_at" attr.type="long" />
+  <key id="d10" for="edge" attr.name="file_path" attr.type="string" />
+  <key id="d9" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d8" for="edge" attr.name="keywords" attr.type="string" />
+  <key id="d7" for="edge" attr.name="description" attr.type="string" />
+  <key id="d6" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d5" for="node" attr.name="created_at" attr.type="long" />
+  <key id="d4" for="node" attr.name="file_path" attr.type="string" />
+  <key id="d3" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d2" for="node" attr.name="description" attr.type="string" />
+  <key id="d1" for="node" attr.name="entity_type" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_id" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="City">
+      <data key="d0">City</data>
+      <data key="d1">location</data>
+      <data key="d2">A city where dynamic energy allocation is applied based on electricity usage patterns.</data>
+      <data key="d3">chunk-d54fb97354ce8f6c2272949a2dce602d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Electricity Usage Pattern">
+      <data key="d0">Electricity Usage Pattern</data>
+      <data key="d1">concept</data>
+      <data key="d2">A concept referring to the dynamic measurement and analysis of urban electricity consumption modes.</data>
+      <data key="d3">chunk-d54fb97354ce8f6c2272949a2dce602d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Dynamic Energy Allocation">
+      <data key="d0">Dynamic Energy Allocation</data>
+      <data key="d1">method</data>
+      <data key="d2">A method involving the real-time distribution of energy resources according to measured electricity usage patterns in cities.</data>
+      <data key="d3">chunk-d54fb97354ce8f6c2272949a2dce602d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Turbine and Energy Storage System">
+      <data key="d0">Turbine and Energy Storage System</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A system combining turbines and energy storage used in power networks.</data>
+      <data key="d3">chunk-0e1fb1697b96aac6ca56af809a7a706d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Smart Grid">
+      <data key="d0">Smart Grid</data>
+      <data key="d1">concept</data>
+      <data key="d2">An advanced electrical grid that uses information technology to monitor and manage the transport of electricity from all generation sources to meet the varying electricity demands of end-users.</data>
+      <data key="d3">chunk-0e1fb1697b96aac6ca56af809a7a706d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Automatic Adjustment">
+      <data key="d0">Automatic Adjustment</data>
+      <data key="d1">method</data>
+      <data key="d2">A process that automatically adjusts power supply through a smart grid.</data>
+      <data key="d3">chunk-0e1fb1697b96aac6ca56af809a7a706d</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Future City">
+      <data key="d0">Future City</data>
+      <data key="d1">location</data>
+      <data key="d2">Future City is a futuristic urban area with a core region housing an AI-managed energy center.</data>
+      <data key="d3">chunk-780885d3488524aa612424d934a12bea</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432227</data>
+    </node>
+    <node id="Energy Center">
+      <data key="d0">Energy Center</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy Center is a facility managed by AI, located in the core area of Future City.&lt;SEP&gt;A location associated with energy management, serving as a reference point for navigation to nearby fast charging stations.&lt;SEP&gt;Energy Center refers to a system or sector related to energy production, distribution, or management, impacted by regulatory changes.</data>
+      <data key="d3">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49&lt;SEP&gt;chunk-de69eaf6daa940c78737f99950efcf1d&lt;SEP&gt;chunk-780885d3488524aa612424d934a12bea</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt&lt;SEP&gt;./inputs/自駕交通與能源整合.txt&lt;SEP&gt;./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="AI">
+      <data key="d0">AI</data>
+      <data key="d1">concept</data>
+      <data key="d2">AI is a system that automatically adjusts power supply based on weather forecasts and city electricity usage.&lt;SEP&gt;AI refers to artificial intelligence systems responsible for managing the Energy Center in Future City.&lt;SEP&gt;The artificial intelligence that enables the system's autonomous navigation to the fast charging station.&lt;SEP&gt;An artificial intelligence system capable of adjusting based on traffic flow, energy demand, and weather conditions.&lt;SEP&gt;AI refers to artificial intelligence systems that provide reports or information, though the specific content is incomplete in the text.&lt;SEP&gt;AI refers to the system or technology that generates reports and model results for public access.</data>
+      <data key="d3">chunk-60efa47a9588fffe56a77d9403dbaa0b&lt;SEP&gt;chunk-780885d3488524aa612424d934a12bea&lt;SEP&gt;chunk-98edab2bedb985603fbc7f84904fcf81&lt;SEP&gt;chunk-cd1c19cf4e7a3c4c12828f8710a1bf49&lt;SEP&gt;chunk-d77b85f67d8545f7d9d9d0c2f08951f8&lt;SEP&gt;chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt&lt;SEP&gt;./inputs/自駕交通與能源整合.txt&lt;SEP&gt;./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Weather Forecast">
+      <data key="d0">Weather Forecast</data>
+      <data key="d1">data</data>
+      <data key="d2">Weather forecast is data used by AI to adjust power supply.</data>
+      <data key="d3">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="City Electricity Usage">
+      <data key="d0">City Electricity Usage</data>
+      <data key="d1">data</data>
+      <data key="d2">City electricity usage is data used by AI to adjust power supply.</data>
+      <data key="d3">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="Automatic Power Adjustment">
+      <data key="d0">Automatic Power Adjustment</data>
+      <data key="d1">method</data>
+      <data key="d2">Automatic power adjustment is a method employed by AI to manage power supply based on weather forecasts and city electricity usage.</data>
+      <data key="d3">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="Power Supply">
+      <data key="d0">Power Supply</data>
+      <data key="d1">concept</data>
+      <data key="d2">Power supply refers to the system being adjusted by AI based on weather forecasts and city electricity usage.</data>
+      <data key="d3">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="Traditional Fuel">
+      <data key="d0">Traditional Fuel</data>
+      <data key="d1">concept</data>
+      <data key="d2">Traditional fuel refers to conventional energy sources that are no longer heavily relied upon.</data>
+      <data key="d3">chunk-21e95a5787bb300e174f44fc6773c827</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="Energy Data">
+      <data key="d0">Energy Data</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy data represents real-time information related to energy usage or production, which is being uploaded.</data>
+      <data key="d3">chunk-21e95a5787bb300e174f44fc6773c827</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432230</data>
+    </node>
+    <node id="能源中心">
+      <data key="d0">能源中心</data>
+      <data key="d1">organization</data>
+      <data key="d2">An organization that connects numerous solar panels and wind turbines.</data>
+      <data key="d3">chunk-baeb0e2683b5ce996f75069358c70bc6</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="太陽能板">
+      <data key="d0">太陽能板</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Artifacts used to capture solar energy.</data>
+      <data key="d3">chunk-baeb0e2683b5ce996f75069358c70bc6</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="風力渦輪">
+      <data key="d0">風力渦輪</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Artifacts used to generate energy from wind.</data>
+      <data key="d3">chunk-baeb0e2683b5ce996f75069358c70bc6</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="Cloud">
+      <data key="d0">Cloud</data>
+      <data key="d1">concept</data>
+      <data key="d2">Cloud refers to the destination for real-time data upload, facilitating subsequent decision analysis.</data>
+      <data key="d3">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="Decision Analysis">
+      <data key="d0">Decision Analysis</data>
+      <data key="d1">concept</data>
+      <data key="d2">Decision Analysis is the process of using uploaded data for informed decision-making.</data>
+      <data key="d3">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="Real-Time Upload">
+      <data key="d0">Real-Time Upload</data>
+      <data key="d1">method</data>
+      <data key="d2">Real-Time Upload refers to the process of immediately transmitting data to the cloud for subsequent decision analysis.</data>
+      <data key="d3">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d4">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d5">1760432232</data>
+    </node>
+    <node id="Infrastructure">
+      <data key="d0">Infrastructure</data>
+      <data key="d1">concept</data>
+      <data key="d2">Infrastructure refers to the foundational systems and structures that support operations, with their operational data being imported into a cloud database.</data>
+      <data key="d3">chunk-20a883888d6e6da576d9ed5799f51f82</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Operation Data">
+      <data key="d0">Operation Data</data>
+      <data key="d1">data</data>
+      <data key="d2">Operation data consists of the operational metrics and information generated by infrastructure systems, which are being imported into a cloud database.</data>
+      <data key="d3">chunk-20a883888d6e6da576d9ed5799f51f82</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Cloud Database">
+      <data key="d0">Cloud Database</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Cloud database is a digital storage system where infrastructure operation data is centralized and stored for management and analysis.&lt;SEP&gt;A cloud database that stores information used by the city's AI model for continuous learning.</data>
+      <data key="d3">chunk-20a883888d6e6da576d9ed5799f51f82&lt;SEP&gt;chunk-dc23edefa3222c7e1f133fef484a9781</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="City's AI Model">
+      <data key="d0">City's AI Model</data>
+      <data key="d1">concept</data>
+      <data key="d2">An artificial intelligence model deployed in a city that continuously learns from information stored in a cloud database.</data>
+      <data key="d3">chunk-dc23edefa3222c7e1f133fef484a9781</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Cloud System">
+      <data key="d0">Cloud System</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A cloud-based system used for predicting future energy demand.</data>
+      <data key="d3">chunk-cb8b67610b2e866a38483b1c8cf98192</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Energy Demand">
+      <data key="d0">Energy Demand</data>
+      <data key="d1">concept</data>
+      <data key="d2">The prediction target for the cloud system's functionality over the next five years.</data>
+      <data key="d3">chunk-cb8b67610b2e866a38483b1c8cf98192</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Energy Consumption">
+      <data key="d0">Energy Consumption</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy consumption refers to the use of energy resources, which is simulated based on the provided information.</data>
+      <data key="d3">chunk-b0c54f369c803b8f3a3713f8be2e7886</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Traffic Trends">
+      <data key="d0">Traffic Trends</data>
+      <data key="d1">concept</data>
+      <data key="d2">Traffic trends represent patterns and changes in transportation activities, which are simulated using the given data.</data>
+      <data key="d3">chunk-b0c54f369c803b8f3a3713f8be2e7886</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432274</data>
+    </node>
+    <node id="Population Activities">
+      <data key="d0">Population Activities</data>
+      <data key="d1">concept</data>
+      <data key="d2">Population activities denote human movements and behaviors, which are modeled as part of the simulation process.&lt;SEP&gt;Population activities represent the collective behaviors and movements of people, which are analyzed by data scientists and policy makers.</data>
+      <data key="d3">chunk-b0c54f369c803b8f3a3713f8be2e7886&lt;SEP&gt;chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="端系統">
+      <data key="d0">端系統</data>
+      <data key="d1">concept</data>
+      <data key="d2">端系統refers to a foundational system that serves as the learning basis for AI assistants.</data>
+      <data key="d3">chunk-fa9cb72811d1150610f44d9fef96caba</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="AI助理">
+      <data key="d0">AI助理</data>
+      <data key="d1">concept</data>
+      <data key="d2">AI助理denotes artificial intelligence assistants that rely on the terminal system as their learning foundation.</data>
+      <data key="d3">chunk-fa9cb72811d1150610f44d9fef96caba</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Graphical Dashboard">
+      <data key="d0">Graphical Dashboard</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A tool used to observe model changes.</data>
+      <data key="d3">chunk-1ab307d7c9fb2e7390c131fecbbb093c</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Model">
+      <data key="d0">Model</data>
+      <data key="d1">concept</data>
+      <data key="d2">A subject whose changes are being observed.</data>
+      <data key="d3">chunk-1ab307d7c9fb2e7390c131fecbbb093c</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Data Scientists">
+      <data key="d0">Data Scientists</data>
+      <data key="d1">person</data>
+      <data key="d2">Data scientists are professionals who can utilize graphical instruments for analysis and decision-making.</data>
+      <data key="d3">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Policy Makers">
+      <data key="d0">Policy Makers</data>
+      <data key="d1">person</data>
+      <data key="d2">Policy makers are individuals involved in creating regulations and can use graphical instruments to support their work.</data>
+      <data key="d3">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Graphical Instrument">
+      <data key="d0">Graphical Instrument</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A graphical instrument is a tool used by data scientists and policy makers to visualize information and support decision-making processes.</data>
+      <data key="d3">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Trend">
+      <data key="d0">Trend</data>
+      <data key="d1">concept</data>
+      <data key="d2">Trend refers to the dynamic changes or patterns observed in population activities as described in the text.</data>
+      <data key="d3">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d4">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d5">1760432275</data>
+    </node>
+    <node id="Vehicle">
+      <data key="d0">Vehicle</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Vehicles are equipped with sensors and AI modules to interact with a central traffic system.</data>
+      <data key="d3">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="Sensor">
+      <data key="d0">Sensor</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Sensors are components installed in vehicles to collect data for traffic communication.</data>
+      <data key="d3">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="AI Module">
+      <data key="d0">AI Module</data>
+      <data key="d1">artifact</data>
+      <data key="d2">AI modules are integrated into vehicles to process data and interact with central traffic systems.</data>
+      <data key="d3">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="Central Traffic Server">
+      <data key="d0">Central Traffic Server</data>
+      <data key="d1">concept</data>
+      <data key="d2">Central Traffic Server is a system that vehicles communicate with via sensors and AI modules.&lt;SEP&gt;Central Traffic Server refers to a system involved in communication processes related to traffic management.</data>
+      <data key="d3">chunk-e51ef04049befa5a4f435dc76d642507&lt;SEP&gt;chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="Vehicle Battery Low">
+      <data key="d0">Vehicle Battery Low</data>
+      <data key="d1">concept</data>
+      <data key="d2">Vehicle Battery Low describes a condition where a vehicle's power level is insufficient.</data>
+      <data key="d3">chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="System">
+      <data key="d0">System</data>
+      <data key="d1">artifact</data>
+      <data key="d2">System refers to an unspecified automated mechanism that responds to vehicle battery status.&lt;SEP&gt;A system that automatically navigates to a fast charging station near the energy center when resources are insufficient.</data>
+      <data key="d3">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49&lt;SEP&gt;chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="Demand">
+      <data key="d0">Demand</data>
+      <data key="d1">concept</data>
+      <data key="d2">Demand refers to the requirements or needs that influence the coordination of urban mobility efficiency.</data>
+      <data key="d3">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="Weather Conditions">
+      <data key="d0">Weather Conditions</data>
+      <data key="d1">naturalobject</data>
+      <data key="d2">Weather Conditions are environmental factors that impact the coordination of urban mobility efficiency.</data>
+      <data key="d3">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432934</data>
+    </node>
+    <node id="The Entire City">
+      <data key="d0">The Entire City</data>
+      <data key="d1">location</data>
+      <data key="d2">The Entire City represents the geographical area where mobility efficiency is being coordinated.</data>
+      <data key="d3">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="Mobility Efficiency">
+      <data key="d0">Mobility Efficiency</data>
+      <data key="d1">concept</data>
+      <data key="d2">Mobility Efficiency is the measure of how effectively movement is managed within a city, influenced by demand and weather conditions.</data>
+      <data key="d3">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="Transportation">
+      <data key="d0">Transportation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Transportation refers to the system of moving people and goods, which is the goal of improving mobility efficiency.&lt;SEP&gt;Transportation refers to the system of moving people and goods, which is integrated with energy through efficiency.</data>
+      <data key="d3">chunk-92ce7e2ac1ee827e24cbddcd0827d402&lt;SEP&gt;chunk-cb78a44977dc8f4b53ea5d9b1de03249</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="Fast Charging Station">
+      <data key="d0">Fast Charging Station</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A facility designed for rapid recharging of devices or vehicles, located near the energy center.</data>
+      <data key="d3">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="充電站">
+      <data key="d0">充電站</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A charging station, which is a facility for recharging electric vehicles.</data>
+      <data key="d3">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="交通流量">
+      <data key="d0">交通流量</data>
+      <data key="d1">concept</data>
+      <data key="d2">The volume of traffic movement in a given area.</data>
+      <data key="d3">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="能源需求">
+      <data key="d0">能源需求</data>
+      <data key="d1">concept</data>
+      <data key="d2">The demand for energy in a particular context.</data>
+      <data key="d3">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432936</data>
+    </node>
+    <node id="天氣條">
+      <data key="d0">天氣條</data>
+      <data key="d1">concept</data>
+      <data key="d2">A weather condition or parameter, though the term is incomplete or possibly a typo.</data>
+      <data key="d3">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432937</data>
+    </node>
+    <node id="Efficiency">
+      <data key="d0">Efficiency</data>
+      <data key="d1">concept</data>
+      <data key="d2">Efficiency is the concept that connects transportation and energy systems to enhance overall performance.&lt;SEP&gt;Efficiency refers to the ability to achieve maximum productivity with minimum wasted effort, as indicated by the term in the input text.</data>
+      <data key="d3">chunk-ef59e6cbf873762ec0f5e7f82db9f651&lt;SEP&gt;chunk-cb78a44977dc8f4b53ea5d9b1de03249</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt&lt;SEP&gt;./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Energy">
+      <data key="d0">Energy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy denotes the power sector and resources that are closely linked to transportation through efficiency.</data>
+      <data key="d3">chunk-cb78a44977dc8f4b53ea5d9b1de03249</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432937</data>
+    </node>
+    <node id="Urban Transportation System">
+      <data key="d0">Urban Transportation System</data>
+      <data key="d1">concept</data>
+      <data key="d2">The urban transportation system is fully automated.</data>
+      <data key="d3">chunk-95ae7b1b40c69518b62e899cbc159a80</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432937</data>
+    </node>
+    <node id="Self-Driving Car">
+      <data key="d0">Self-Driving Car</data>
+      <data key="d1">artifact</data>
+      <data key="d2">A self-driving car is equipped with unspecified technology or components.</data>
+      <data key="d3">chunk-95ae7b1b40c69518b62e899cbc159a80</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432937</data>
+    </node>
+    <node id="Communication">
+      <data key="d0">Communication</data>
+      <data key="d3">chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d2">Central Traffic Server is engaged in communication processes as described in the text.</data>
+      <data key="d1">UNKNOWN</data>
+      <data key="d4">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d5">1760432937</data>
+    </node>
+    <node id="Peak Hours">
+      <data key="d0">Peak Hours</data>
+      <data key="d1">concept</data>
+      <data key="d2">Peak Hours refers to periods of high demand, during which suggestions are made to use public transportation or adjust appliances.</data>
+      <data key="d3">chunk-8092ed93e79d2eda500f1dbe41548c7f</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="Public Transportation">
+      <data key="d0">Public Transportation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Public Transportation is a system of transport that is recommended during peak hours to reduce congestion.</data>
+      <data key="d3">chunk-8092ed93e79d2eda500f1dbe41548c7f</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="Adjusting Appliances">
+      <data key="d0">Adjusting Appliances</data>
+      <data key="d1">method</data>
+      <data key="d2">Adjusting Appliances refers to the practice of modifying appliance usage during peak hours to manage energy demand.</data>
+      <data key="d3">chunk-8092ed93e79d2eda500f1dbe41548c7f</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="Assistant">
+      <data key="d0">Assistant</data>
+      <data key="d1">concept</data>
+      <data key="d2">Assistant is a system or entity that detects urban traffic congestion and energy peaks.&lt;SEP&gt;Assistant refers to the entity providing lifestyle analysis, energy conservation, health recommendations, and travel advice based on the input text.</data>
+      <data key="d3">chunk-ec21914d8f0fba3cf115a0d1985925ef&lt;SEP&gt;chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="Urban Traffic Congestion">
+      <data key="d0">Urban Traffic Congestion</data>
+      <data key="d1">concept</data>
+      <data key="d2">Urban traffic congestion refers to the condition of heavy traffic in urban areas.</data>
+      <data key="d3">chunk-ec21914d8f0fba3cf115a0d1985925ef</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="Energy Peaks">
+      <data key="d0">Energy Peaks</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy peaks refer to periods of high energy demand or consumption.</data>
+      <data key="d3">chunk-ec21914d8f0fba3cf115a0d1985925ef</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="雲端模型">
+      <data key="d0">雲端模型</data>
+      <data key="d1">concept</data>
+      <data key="d2">A cloud-based model that synchronizes updates to influence individual behavior and city operations.</data>
+      <data key="d3">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="個人行為">
+      <data key="d0">個人行為</data>
+      <data key="d1">concept</data>
+      <data key="d2">Individual actions that interact with the cloud model to create a positive feedback loop with city operations.</data>
+      <data key="d3">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433010</data>
+    </node>
+    <node id="整體城市運作">
+      <data key="d0">整體城市運作</data>
+      <data key="d1">concept</data>
+      <data key="d2">The collective operational processes of a city that form a positive feedback loop with individual behavior through cloud model updates.</data>
+      <data key="d3">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Lifestyle Analysis">
+      <data key="d0">Lifestyle Analysis</data>
+      <data key="d1">concept</data>
+      <data key="d2">Lifestyle Analysis refers to the examination of an individual's daily habits and routines to identify areas for improvement.</data>
+      <data key="d3">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Energy Conservation">
+      <data key="d0">Energy Conservation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Energy Conservation involves strategies and practices aimed at reducing energy consumption and promoting sustainability.</data>
+      <data key="d3">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Health Recommendations">
+      <data key="d0">Health Recommendations</data>
+      <data key="d1">concept</data>
+      <data key="d2">Health Recommendations provide guidance on maintaining physical and mental well-being through lifestyle modifications.</data>
+      <data key="d3">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Travel Advice">
+      <data key="d0">Travel Advice</data>
+      <data key="d1">concept</data>
+      <data key="d2">Travel Advice offers suggestions for efficient, sustainable, and healthy transportation options tailored to individual needs.</data>
+      <data key="d3">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Home Appliances">
+      <data key="d0">Home Appliances</data>
+      <data key="d1">artifact</data>
+      <data key="d2">Home Appliances refer to electrical devices used in households, with their electricity usage time being adjustable.</data>
+      <data key="d3">chunk-5b01ab536505f871246e840bf6212428</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="City Cloud Model">
+      <data key="d0">City Cloud Model</data>
+      <data key="d1">concept</data>
+      <data key="d2">City Cloud Model is a system or framework that enables synchronization with assistants for managing electricity usage.</data>
+      <data key="d3">chunk-5b01ab536505f871246e840bf6212428</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Assistants">
+      <data key="d0">Assistants</data>
+      <data key="d1">concept</data>
+      <data key="d2">Assistants are entities that synchronize with the City Cloud Model to coordinate electricity management tasks.</data>
+      <data key="d3">chunk-5b01ab536505f871246e840bf6212428</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Personalized AI Assistant">
+      <data key="d0">Personalized AI Assistant</data>
+      <data key="d1">concept</data>
+      <data key="d2">A personalized AI assistant is a concept that provides individualized support to citizens by analyzing their lifestyle patterns.</data>
+      <data key="d3">chunk-197b44a9ab3ec13c1fc107b407614153</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Citizen">
+      <data key="d0">Citizen</data>
+      <data key="d1">person</data>
+      <data key="d2">A citizen is an individual who is entitled to the rights and responsibilities of a member of a particular society or state.</data>
+      <data key="d3">chunk-197b44a9ab3ec13c1fc107b407614153</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Lifestyle Pattern">
+      <data key="d0">Lifestyle Pattern</data>
+      <data key="d1">concept</data>
+      <data key="d2">A lifestyle pattern refers to the habitual behaviors, preferences, and routines that characterize an individual's way of life.</data>
+      <data key="d3">chunk-197b44a9ab3ec13c1fc107b407614153</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Operation">
+      <data key="d0">Operation</data>
+      <data key="d1">concept</data>
+      <data key="d2">Operation refers to the process that leads to the formation of a positive cycle.</data>
+      <data key="d3">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Positive Cycle">
+      <data key="d0">Positive Cycle</data>
+      <data key="d1">concept</data>
+      <data key="d2">Positive Cycle is a self-reinforcing loop created through effective operation.</data>
+      <data key="d3">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="運作">
+      <data key="d0">運作</data>
+      <data key="d1">concept</data>
+      <data key="d2">運作refers to the process that leads to the formation of a positive cycle.</data>
+      <data key="d3">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="正向循環">
+      <data key="d0">正向循環</data>
+      <data key="d1">concept</data>
+      <data key="d2">正向循環is a self-reinforcing loop created through effective運作.</data>
+      <data key="d3">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d4">./inputs/公民AI助理的角色.txt</data>
+      <data key="d5">1760433011</data>
+    </node>
+    <node id="Committee">
+      <data key="d0">Committee</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Committee is a group responsible for setting policies using a platform.&lt;SEP&gt;The Committee is an entity capable of predicting the impact of new regulations on various sectors.</data>
+      <data key="d3">chunk-0e448ab5dd5060530851a569d04fa8c2&lt;SEP&gt;chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Platform">
+      <data key="d0">Platform</data>
+      <data key="d1">concept</data>
+      <data key="d2">The Platform is a tool or system used by the Committee to develop and implement policies.</data>
+      <data key="d3">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Policy">
+      <data key="d0">Policy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Policy refers to the regulations and guidelines established by the Committee through the platform.</data>
+      <data key="d3">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Strategy">
+      <data key="d0">Strategy</data>
+      <data key="d1">concept</data>
+      <data key="d2">Strategy represents the different approaches simulated by the Committee to predict outcomes.</data>
+      <data key="d3">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Prediction">
+      <data key="d0">Prediction</data>
+      <data key="d1">concept</data>
+      <data key="d2">Prediction denotes the anticipated results derived from simulating various strategies.</data>
+      <data key="d3">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="New Regulations">
+      <data key="d0">New Regulations</data>
+      <data key="d1">concept</data>
+      <data key="d2">New Regulations refer to upcoming legal frameworks that may affect energy centers, transportation networks, and citizens' lives.</data>
+      <data key="d3">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Transportation Network">
+      <data key="d0">Transportation Network</data>
+      <data key="d1">concept</data>
+      <data key="d2">Transportation Network represents the infrastructure and systems facilitating movement of people and goods.</data>
+      <data key="d3">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433363</data>
+    </node>
+    <node id="Citizens' Lives">
+      <data key="d0">Citizens' Lives</data>
+      <data key="d1">concept</data>
+      <data key="d2">Citizens' Lives encompasses the daily experiences and conditions of individuals affected by regulatory changes.</data>
+      <data key="d3">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Reports">
+      <data key="d0">Reports</data>
+      <data key="d1">content</data>
+      <data key="d2">Reports are documents produced by AI that are made available for citizens to review.</data>
+      <data key="d3">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Model Results">
+      <data key="d0">Model Results</data>
+      <data key="d1">content</data>
+      <data key="d2">Model results are outputs generated by AI systems that are accessible to the public.</data>
+      <data key="d3">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Citizens">
+      <data key="d0">Citizens</data>
+      <data key="d1">person</data>
+      <data key="d2">Citizens are the individuals who have access to AI-generated reports and model results.</data>
+      <data key="d3">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Integration of Technology and Governance">
+      <data key="d0">Integration of Technology and Governance</data>
+      <data key="d1">method</data>
+      <data key="d2">A method that combines technology and governance to enhance urban resilience.</data>
+      <data key="d3">chunk-5ca3a361bf8a3629e7b7faf0314c7808</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Urban Resilience">
+      <data key="d0">Urban Resilience</data>
+      <data key="d1">concept</data>
+      <data key="d2">The quality of cities being able to withstand and recover from challenges, enhanced by the integration of technology and governance.</data>
+      <data key="d3">chunk-5ca3a361bf8a3629e7b7faf0314c7808</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="城市的永續發展委員會">
+      <data key="d0">城市的永續發展委員會</data>
+      <data key="d1">organization</data>
+      <data key="d2">The Urban Sustainability Committee is an organization that relies on an AI simulation platform to formulate policies.</data>
+      <data key="d3">chunk-f9da756f2ddae291698775218f4a8106</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="AI模擬平台">
+      <data key="d0">AI模擬平台</data>
+      <data key="d1">method</data>
+      <data key="d2">An AI simulation platform is a tool used by the Urban Sustainability Committee to formulate policies.</data>
+      <data key="d3">chunk-f9da756f2ddae291698775218f4a8106</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="政策">
+      <data key="d0">政策</data>
+      <data key="d1">concept</data>
+      <data key="d2">Policy is a concept that the Urban Sustainability Committee formulates using the AI simulation platform.</data>
+      <data key="d3">chunk-f9da756f2ddae291698775218f4a8106</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Resilience">
+      <data key="d0">Resilience</data>
+      <data key="d1">concept</data>
+      <data key="d2">Resilience refers to the ability to recover from difficulties, as indicated by the term in the input text.</data>
+      <data key="d3">chunk-ef59e6cbf873762ec0f5e7f82db9f651</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Citizen Life Impact">
+      <data key="d0">Citizen Life Impact</data>
+      <data key="d1">concept</data>
+      <data key="d2">The impact on citizen life refers to the influence of decision-making processes on the daily lives of people.</data>
+      <data key="d3">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Decision-Making Process">
+      <data key="d0">Decision-Making Process</data>
+      <data key="d1">concept</data>
+      <data key="d2">The decision-making process is described as transparent and open, indicating a public and accountable approach to governance.</data>
+      <data key="d3">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <node id="Report">
+      <data key="d0">Report</data>
+      <data key="d1">content</data>
+      <data key="d2">A report provided by AI, though the specific content is incomplete in the text.</data>
+      <data key="d3">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d4">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d5">1760433366</data>
+    </node>
+    <edge source="City" target="Dynamic Energy Allocation">
+      <data key="d6">1.0</data>
+      <data key="d7">The dynamic energy allocation method is implemented within a city to optimize energy distribution based on measured consumption patterns.</data>
+      <data key="d8">sustainability,urban infrastructure</data>
+      <data key="d9">chunk-d54fb97354ce8f6c2272949a2dce602d</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Electricity Usage Pattern" target="Dynamic Energy Allocation">
+      <data key="d6">1.0</data>
+      <data key="d7">The method of dynamic energy allocation is applied to analyze and respond to electricity usage patterns in cities.</data>
+      <data key="d8">energy management,resource optimization</data>
+      <data key="d9">chunk-d54fb97354ce8f6c2272949a2dce602d</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432232</data>
+    </edge>
+    <edge source="Turbine and Energy Storage System" target="Smart Grid">
+      <data key="d6">1.0</data>
+      <data key="d7">The turbine and energy storage system utilize the smart grid to perform automatic adjustments.</data>
+      <data key="d8">power management,system integration</data>
+      <data key="d9">chunk-0e1fb1697b96aac6ca56af809a7a706d</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432232</data>
+    </edge>
+    <edge source="Smart Grid" target="Automatic Adjustment">
+      <data key="d6">1.0</data>
+      <data key="d7">The smart grid facilitates the automatic adjustment process.</data>
+      <data key="d8">control mechanism,method implementation</data>
+      <data key="d9">chunk-0e1fb1697b96aac6ca56af809a7a706d</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Future City" target="Energy Center">
+      <data key="d6">1.0</data>
+      <data key="d7">The Energy Center is situated in the core area of Future City.</data>
+      <data key="d8">location,urban infrastructure</data>
+      <data key="d9">chunk-780885d3488524aa612424d934a12bea</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432232</data>
+    </edge>
+    <edge source="Energy Center" target="AI">
+      <data key="d6">1.0</data>
+      <data key="d7">AI systems are responsible for managing operations at the Energy Center.</data>
+      <data key="d8">management,technological control</data>
+      <data key="d9">chunk-780885d3488524aa612424d934a12bea</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Energy Center" target="Fast Charging Station">
+      <data key="d6">1.0</data>
+      <data key="d7">The fast charging station is situated near the energy center.</data>
+      <data key="d8">location,proximity</data>
+      <data key="d9">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Energy Center" target="Committee">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee predicts the effects of New Regulations on Energy Centers as part of its regulatory analysis.</data>
+      <data key="d8">impact assessment,regulatory analysis</data>
+      <data key="d9">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="AI" target="Weather Forecast">
+      <data key="d6">1.0</data>
+      <data key="d7">AI utilizes weather forecast data to adjust power supply.</data>
+      <data key="d8">data usage,power adjustment</data>
+      <data key="d9">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="AI" target="City Electricity Usage">
+      <data key="d6">1.0</data>
+      <data key="d7">AI utilizes city electricity usage data to adjust power supply.</data>
+      <data key="d8">data usage,power adjustment</data>
+      <data key="d9">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="AI" target="Automatic Power Adjustment">
+      <data key="d6">1.0</data>
+      <data key="d7">AI implements the automatic power adjustment method to manage power supply.</data>
+      <data key="d8">method implementation,system function</data>
+      <data key="d9">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="AI" target="System">
+      <data key="d6">1.0</data>
+      <data key="d7">The AI governs the system's navigation functionality.</data>
+      <data key="d8">AI integration,control</data>
+      <data key="d9">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="AI" target="交通流量">
+      <data key="d6">1.0</data>
+      <data key="d7">AI uses traffic flow as a factor in its adjustments.</data>
+      <data key="d8">adjustment based on,traffic consideration</data>
+      <data key="d9">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="AI" target="能源需求">
+      <data key="d6">1.0</data>
+      <data key="d7">AI considers energy demand when making adjustments.</data>
+      <data key="d8">adjustment factor,energy demand consideration</data>
+      <data key="d9">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="AI" target="天氣條">
+      <data key="d6">1.0</data>
+      <data key="d7">AI takes weather conditions into account for adjustments.</data>
+      <data key="d8">adjustment factor,weather consideration</data>
+      <data key="d9">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="AI" target="充電站">
+      <data key="d6">1.0</data>
+      <data key="d7">The AI is integrated into the charging station to optimize operations based on traffic flow, energy demand, and weather conditions.</data>
+      <data key="d8">system integration,technological component</data>
+      <data key="d9">chunk-d77b85f67d8545f7d9d9d0c2f08951f8</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="AI" target="Reports">
+      <data key="d6">1.0</data>
+      <data key="d7">AI produces reports that are made available for citizens to review.</data>
+      <data key="d8">information generation,public access</data>
+      <data key="d9">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433366</data>
+    </edge>
+    <edge source="AI" target="Model Results">
+      <data key="d6">1.0</data>
+      <data key="d7">AI generates model results that are accessible to the public.</data>
+      <data key="d8">data generation,transparency</data>
+      <data key="d9">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="AI" target="Decision-Making Process">
+      <data key="d6">1.0</data>
+      <data key="d7">AI is associated with providing reports or information that supports the decision-making process.</data>
+      <data key="d8">information provision,technological support</data>
+      <data key="d9">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="AI" target="Report">
+      <data key="d6">1.0</data>
+      <data key="d7">AI is associated with providing reports or information, as indicated in the text.</data>
+      <data key="d8">information provision,technological support</data>
+      <data key="d9">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433368</data>
+    </edge>
+    <edge source="Automatic Power Adjustment" target="Power Supply">
+      <data key="d6">1.0</data>
+      <data key="d7">Automatic power adjustment is the method used to manage and modify the power supply system.</data>
+      <data key="d8">adjustment target,system function</data>
+      <data key="d9">chunk-98edab2bedb985603fbc7f84904fcf81</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="能源中心" target="太陽能板">
+      <data key="d6">1.0</data>
+      <data key="d7">The Energy Center is connected to solar panels as part of its energy infrastructure.</data>
+      <data key="d8">connects,energy infrastructure</data>
+      <data key="d9">chunk-baeb0e2683b5ce996f75069358c70bc6</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="能源中心" target="風力渦輪">
+      <data key="d6">1.0</data>
+      <data key="d7">The Energy Center is connected to wind turbines as part of its energy infrastructure.</data>
+      <data key="d8">connects,energy infrastructure</data>
+      <data key="d9">chunk-baeb0e2683b5ce996f75069358c70bc6</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Cloud" target="Decision Analysis">
+      <data key="d6">1.0</data>
+      <data key="d7">The cloud serves as a storage medium that supports the process of decision analysis by providing access to uploaded data.</data>
+      <data key="d8">analysis support,data storage</data>
+      <data key="d9">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Cloud" target="Real-Time Upload">
+      <data key="d6">1.0</data>
+      <data key="d7">Real-Time Upload is the method used to transmit data to the Cloud for storage and processing.</data>
+      <data key="d8">cloud integration,data transmission</data>
+      <data key="d9">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Decision Analysis" target="Real-Time Upload">
+      <data key="d6">1.0</data>
+      <data key="d7">Real-Time Upload provides the necessary data for Decision Analysis to occur.</data>
+      <data key="d8">analytical foundation,data preparation</data>
+      <data key="d9">chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a</data>
+      <data key="d10">./inputs/能源中心與智慧電網.txt</data>
+      <data key="d11">1760432233</data>
+    </edge>
+    <edge source="Infrastructure" target="Operation Data">
+      <data key="d6">1.0</data>
+      <data key="d7">Infrastructure generates operational data that is subsequently imported into a cloud database.</data>
+      <data key="d8">data generation,operational metrics</data>
+      <data key="d9">chunk-20a883888d6e6da576d9ed5799f51f82</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="Operation Data" target="Cloud Database">
+      <data key="d6">1.0</data>
+      <data key="d7">Operation data is being imported into the cloud database as part of a centralized data management process.</data>
+      <data key="d8">cloud storage,data import</data>
+      <data key="d9">chunk-20a883888d6e6da576d9ed5799f51f82</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432275</data>
+    </edge>
+    <edge source="Cloud Database" target="City's AI Model">
+      <data key="d6">1.0</data>
+      <data key="d7">The city's AI model continuously learns from information stored in the cloud database.</data>
+      <data key="d8">data source,learning process</data>
+      <data key="d9">chunk-dc23edefa3222c7e1f133fef484a9781</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="Cloud System" target="Energy Demand">
+      <data key="d6">1.0</data>
+      <data key="d7">The cloud system is utilized to predict future energy demand for the next five years.</data>
+      <data key="d8">forecasting,prediction</data>
+      <data key="d9">chunk-cb8b67610b2e866a38483b1c8cf98192</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432275</data>
+    </edge>
+    <edge source="Population Activities" target="Trend">
+      <data key="d6">1.0</data>
+      <data key="d7">Trends and population activities are interconnected, with trends reflecting changes in population behaviors.</data>
+      <data key="d8">demographic analysis,interrelated concepts</data>
+      <data key="d9">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="Population Activities" target="Policy Makers">
+      <data key="d6">1.0</data>
+      <data key="d7">Policy makers address population activities through data analysis supported by graphical instruments.</data>
+      <data key="d8">decision-making,policy context</data>
+      <data key="d9">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="端系統" target="AI助理">
+      <data key="d6">1.0</data>
+      <data key="d7">端系統provides the foundational structure upon which AI助理's learning processes are based.</data>
+      <data key="d8">dependency,learning foundation</data>
+      <data key="d9">chunk-fa9cb72811d1150610f44d9fef96caba</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432275</data>
+    </edge>
+    <edge source="Graphical Dashboard" target="Model">
+      <data key="d6">1.0</data>
+      <data key="d7">The Graphical Dashboard is used to observe changes in the Model.</data>
+      <data key="d8">monitoring,observation</data>
+      <data key="d9">chunk-1ab307d7c9fb2e7390c131fecbbb093c</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432275</data>
+    </edge>
+    <edge source="Data Scientists" target="Graphical Instrument">
+      <data key="d6">1.0</data>
+      <data key="d7">Data scientists use graphical instruments to analyze and interpret data effectively.</data>
+      <data key="d8">tool usage,visualization</data>
+      <data key="d9">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432275</data>
+    </edge>
+    <edge source="Data Scientists" target="Trend">
+      <data key="d6">1.0</data>
+      <data key="d7">Data scientists analyze trends related to population activities using graphical instruments.</data>
+      <data key="d8">analysis focus,data interpretation</data>
+      <data key="d9">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="Policy Makers" target="Graphical Instrument">
+      <data key="d6">1.0</data>
+      <data key="d7">Policy makers employ graphical instruments to aid in the formulation of policies and strategies.</data>
+      <data key="d8">decision support,tool usage</data>
+      <data key="d9">chunk-0db6d0e150ebb29a169cbf3ed947c162</data>
+      <data key="d10">./inputs/雲端資料與城市模型.txt</data>
+      <data key="d11">1760432276</data>
+    </edge>
+    <edge source="Vehicle" target="Sensor">
+      <data key="d6">1.0</data>
+      <data key="d7">Vehicles are equipped with sensors to gather traffic-related data.</data>
+      <data key="d8">data collection,equipment integration</data>
+      <data key="d9">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="Vehicle" target="AI Module">
+      <data key="d6">1.0</data>
+      <data key="d7">Vehicles incorporate AI modules to handle data and interact with traffic systems.</data>
+      <data key="d8">data processing,equipment integration</data>
+      <data key="d9">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="AI Module" target="Central Traffic Server">
+      <data key="d6">1.0</data>
+      <data key="d7">AI modules enable vehicles to communicate with the Central Traffic Server.</data>
+      <data key="d8">communication,traffic coordination</data>
+      <data key="d9">chunk-e51ef04049befa5a4f435dc76d642507</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Central Traffic Server" target="Communication">
+      <data key="d6">1.0</data>
+      <data key="d7">Central Traffic Server is engaged in communication processes as described in the text.</data>
+      <data key="d8">data exchange,system interaction</data>
+      <data key="d9">chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="Vehicle Battery Low" target="System">
+      <data key="d6">1.0</data>
+      <data key="d7">The System is activated or influenced by the Vehicle Battery Low condition.</data>
+      <data key="d8">automated response,trigger condition</data>
+      <data key="d9">chunk-cbf263292bd9d2d51a3cecc79266412c</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="System" target="Fast Charging Station">
+      <data key="d6">1.0</data>
+      <data key="d7">The system automatically directs to the fast charging station when resources are insufficient.</data>
+      <data key="d8">automation,navigation</data>
+      <data key="d9">chunk-cd1c19cf4e7a3c4c12828f8710a1bf49</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="Demand" target="Mobility Efficiency">
+      <data key="d6">1.0</data>
+      <data key="d7">Demand influences the coordination of mobility efficiency within the entire city.</data>
+      <data key="d8">coordination,urban planning</data>
+      <data key="d9">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="Weather Conditions" target="Mobility Efficiency">
+      <data key="d6">1.0</data>
+      <data key="d7">Weather Conditions affect the coordination of mobility efficiency within the entire city.</data>
+      <data key="d8">environmental impact,urban planning</data>
+      <data key="d9">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432937</data>
+    </edge>
+    <edge source="Mobility Efficiency" target="Transportation">
+      <data key="d6">1.0</data>
+      <data key="d7">Improving mobility efficiency aims to enhance the effectiveness of transportation systems.</data>
+      <data key="d8">improvement,system optimization</data>
+      <data key="d9">chunk-92ce7e2ac1ee827e24cbddcd0827d402</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Transportation" target="Efficiency">
+      <data key="d6">1.0</data>
+      <data key="d7">Efficiency serves as the bridge that connects transportation systems with energy resources.</data>
+      <data key="d8">connection,integration</data>
+      <data key="d9">chunk-cb78a44977dc8f4b53ea5d9b1de03249</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Efficiency" target="Energy">
+      <data key="d6">1.0</data>
+      <data key="d7">Efficiency establishes a critical link between energy systems and transportation networks.</data>
+      <data key="d8">connection,integration</data>
+      <data key="d9">chunk-cb78a44977dc8f4b53ea5d9b1de03249</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Urban Transportation System" target="Self-Driving Car">
+      <data key="d6">1.0</data>
+      <data key="d7">The urban transportation system incorporates self-driving cars as part of its automated infrastructure.</data>
+      <data key="d8">integration,system component</data>
+      <data key="d9">chunk-95ae7b1b40c69518b62e899cbc159a80</data>
+      <data key="d10">./inputs/自駕交通與能源整合.txt</data>
+      <data key="d11">1760432938</data>
+    </edge>
+    <edge source="Peak Hours" target="Public Transportation">
+      <data key="d6">1.0</data>
+      <data key="d7">During peak hours, the use of public transportation is suggested as an alternative to reduce congestion.</data>
+      <data key="d8">recommendation,suggestion</data>
+      <data key="d9">chunk-8092ed93e79d2eda500f1dbe41548c7f</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Peak Hours" target="Adjusting Appliances">
+      <data key="d6">1.0</data>
+      <data key="d7">During peak hours, adjusting appliances is recommended to manage energy consumption effectively.</data>
+      <data key="d8">energy management,suggestion</data>
+      <data key="d9">chunk-8092ed93e79d2eda500f1dbe41548c7f</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Assistant" target="Urban Traffic Congestion">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant detects urban traffic congestion as part of its monitoring functions.</data>
+      <data key="d8">detection,monitoring</data>
+      <data key="d9">chunk-ec21914d8f0fba3cf115a0d1985925ef</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Assistant" target="Energy Peaks">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant detects energy peaks as part of its monitoring functions.</data>
+      <data key="d8">detection,monitoring</data>
+      <data key="d9">chunk-ec21914d8f0fba3cf115a0d1985925ef</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Assistant" target="Energy Conservation">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant provides energy conservation strategies as part of the overall recommendation service.</data>
+      <data key="d8">advice provision,sustainability</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Assistant" target="Health Recommendations">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant delivers health recommendations tailored to individual lifestyle patterns.</data>
+      <data key="d8">advice provision,wellness</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Assistant" target="Travel Advice">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant offers travel advice as part of the comprehensive lifestyle improvement service.</data>
+      <data key="d8">advice provision,mobility</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433013</data>
+    </edge>
+    <edge source="Assistant" target="Lifestyle Analysis">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistant conducts lifestyle analysis to inform energy conservation, health, and travel recommendations.</data>
+      <data key="d8">analysis execution,recommendation basis</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433013</data>
+    </edge>
+    <edge source="雲端模型" target="個人行為">
+      <data key="d6">1.0</data>
+      <data key="d7">The cloud model's synchronization updates directly influence individual behavior.</data>
+      <data key="d8">feedback mechanism,synchronization update</data>
+      <data key="d9">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="雲端模型" target="整體城市運作">
+      <data key="d6">1.0</data>
+      <data key="d7">The cloud model's synchronization updates directly affect overall city operations.</data>
+      <data key="d8">synchronization update,systemic impact</data>
+      <data key="d9">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="個人行為" target="整體城市運作">
+      <data key="d6">1.0</data>
+      <data key="d7">Individual behavior and overall city operations mutually reinforce each other through the cloud model's updates.</data>
+      <data key="d8">interdependence,positive feedback</data>
+      <data key="d9">chunk-67889f9c59eaba99a839486e0f8374c9</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Lifestyle Analysis" target="Energy Conservation">
+      <data key="d6">1.0</data>
+      <data key="d7">Lifestyle Analysis informs the development of Energy Conservation strategies by identifying energy usage patterns.</data>
+      <data key="d8">lifestyle impact,sustainability</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Lifestyle Analysis" target="Health Recommendations">
+      <data key="d6">1.0</data>
+      <data key="d7">Lifestyle Analysis enables the creation of Health Recommendations by evaluating daily routines and their health implications.</data>
+      <data key="d8">habit modification,wellness integration</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Lifestyle Analysis" target="Travel Advice">
+      <data key="d6">1.0</data>
+      <data key="d7">Lifestyle Analysis contributes to Travel Advice by assessing commuting patterns and transportation preferences.</data>
+      <data key="d8">mobility planning,sustainable transport</data>
+      <data key="d9">chunk-67fa9cfe1b510625e6077a975e5ac8b2</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Home Appliances" target="Assistants">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistants are used to adjust the electricity usage time of Home Appliances.</data>
+      <data key="d8">adjustment,electricity management</data>
+      <data key="d9">chunk-5b01ab536505f871246e840bf6212428</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="City Cloud Model" target="Assistants">
+      <data key="d6">1.0</data>
+      <data key="d7">Assistants synchronize with the City Cloud Model to coordinate electricity usage adjustments.</data>
+      <data key="d8">integration,synchronization</data>
+      <data key="d9">chunk-5b01ab536505f871246e840bf6212428</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Personalized AI Assistant" target="Citizen">
+      <data key="d6">1.0</data>
+      <data key="d7">A citizen is associated with a personalized AI assistant that is tailored to their specific needs and behaviors.</data>
+      <data key="d8">individualization,ownership</data>
+      <data key="d9">chunk-197b44a9ab3ec13c1fc107b407614153</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Personalized AI Assistant" target="Lifestyle Pattern">
+      <data key="d6">1.0</data>
+      <data key="d7">A personalized AI assistant is capable of analyzing an individual's lifestyle pattern to provide insights and support.</data>
+      <data key="d8">analysis,data processing</data>
+      <data key="d9">chunk-197b44a9ab3ec13c1fc107b407614153</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433013</data>
+    </edge>
+    <edge source="Operation" target="Positive Cycle">
+      <data key="d6">1.0</data>
+      <data key="d7">Operation is the process that results in the creation of a positive cycle.</data>
+      <data key="d8">causation,formation</data>
+      <data key="d9">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="運作" target="正向循環">
+      <data key="d6">1.0</data>
+      <data key="d7">運作is the process that results in the creation of a正向循環.</data>
+      <data key="d8">causation,formation</data>
+      <data key="d9">chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec</data>
+      <data key="d10">./inputs/公民AI助理的角色.txt</data>
+      <data key="d11">1760433012</data>
+    </edge>
+    <edge source="Committee" target="Platform">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee utilizes the Platform as a tool to formulate and execute policies.</data>
+      <data key="d8">policy-making,tool usage</data>
+      <data key="d9">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433366</data>
+    </edge>
+    <edge source="Committee" target="Strategy">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee employs Strategy simulations to anticipate potential results.</data>
+      <data key="d8">outcome forecasting,simulation</data>
+      <data key="d9">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433366</data>
+    </edge>
+    <edge source="Committee" target="New Regulations">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee is able to predict the effects of New Regulations on various domains.</data>
+      <data key="d8">prediction,regulatory analysis</data>
+      <data key="d9">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Committee" target="Transportation Network">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee predicts the influence of New Regulations on Transportation Networks.</data>
+      <data key="d8">infrastructure impact,regulatory analysis</data>
+      <data key="d9">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Committee" target="Citizens' Lives">
+      <data key="d6">1.0</data>
+      <data key="d7">The Committee anticipates the effects of New Regulations on the daily lives of citizens.</data>
+      <data key="d8">regulatory forecasting,societal impact</data>
+      <data key="d9">chunk-de69eaf6daa940c78737f99950efcf1d</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Platform" target="Policy">
+      <data key="d6">1.0</data>
+      <data key="d7">The Platform serves as a mechanism for creating and refining Policy.</data>
+      <data key="d8">instrumentality,regulatory development</data>
+      <data key="d9">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433366</data>
+    </edge>
+    <edge source="Strategy" target="Prediction">
+      <data key="d6">1.0</data>
+      <data key="d7">Simulated Strategies are used to generate Predictions about possible outcomes.</data>
+      <data key="d8">analytical process,cause-effect</data>
+      <data key="d9">chunk-0e448ab5dd5060530851a569d04fa8c2</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433366</data>
+    </edge>
+    <edge source="Reports" target="Citizens">
+      <data key="d6">1.0</data>
+      <data key="d7">Reports are provided to citizens as a means of transparency.</data>
+      <data key="d8">information sharing,public availability</data>
+      <data key="d9">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Model Results" target="Citizens">
+      <data key="d6">1.0</data>
+      <data key="d7">Model results are made available to citizens for review and analysis.</data>
+      <data key="d8">data accessibility,public engagement</data>
+      <data key="d9">chunk-60efa47a9588fffe56a77d9403dbaa0b</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Integration of Technology and Governance" target="Urban Resilience">
+      <data key="d6">1.0</data>
+      <data key="d7">The integration of technology and governance enhances urban resilience by making cities more adaptable to challenges.</data>
+      <data key="d8">enhancement,urban development</data>
+      <data key="d9">chunk-5ca3a361bf8a3629e7b7faf0314c7808</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="城市的永續發展委員會" target="AI模擬平台">
+      <data key="d6">1.0</data>
+      <data key="d7">The Urban Sustainability Committee relies on the AI simulation platform to formulate policies.</data>
+      <data key="d8">policy-making,reliance</data>
+      <data key="d9">chunk-f9da756f2ddae291698775218f4a8106</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="城市的永續發展委員會" target="政策">
+      <data key="d6">1.0</data>
+      <data key="d7">The Urban Sustainability Committee formulates policies using the AI simulation platform.</data>
+      <data key="d8">formulation,policy-making</data>
+      <data key="d9">chunk-f9da756f2ddae291698775218f4a8106</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+    <edge source="Citizen Life Impact" target="Decision-Making Process">
+      <data key="d6">1.0</data>
+      <data key="d7">The transparent and open nature of the decision-making process directly influences the impact on citizen life.</data>
+      <data key="d8">public governance,transparency</data>
+      <data key="d9">chunk-d5edadc5b8bd3927a0b9de3fb2b64256</data>
+      <data key="d10">./inputs/政策與永續決策委員會.txt</data>
+      <data key="d11">1760433367</data>
+    </edge>
+  </graph>
+</graphml>

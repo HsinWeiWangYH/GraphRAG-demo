@@ -1,0 +1,506 @@
+{
+  "chunk-780885d3488524aa612424d934a12bea": {
+    "tokens": 20,
+    "content": "在未來城市的核心區，有一座由 AI 管理的能源中心。它連",
+    "chunk_order_index": 0,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:9cb4d6319203a250dcbd72aff84c6607",
+      "default:extract:3f5340e11e9cd82700de744548a62f18"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760431885,
+    "_id": "chunk-780885d3488524aa612424d934a12bea"
+  },
+  "chunk-baeb0e2683b5ce996f75069358c70bc6": {
+    "tokens": 20,
+    "content": "能源中心。它連接無數太陽能板、風力渦輪與�",
+    "chunk_order_index": 1,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:ddabd1ca14a6c37ba0c305e5d017bb95",
+      "default:extract:a635dc18dbe9ce3abe045eecfc85aa71"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760431904,
+    "_id": "chunk-baeb0e2683b5ce996f75069358c70bc6"
+  },
+  "chunk-0e1fb1697b96aac6ca56af809a7a706d": {
+    "tokens": 20,
+    "content": "渦輪與儲能系統，透過智慧電網自動調整供",
+    "chunk_order_index": 2,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:e2664bacc4e898c8f16bd843e417c3de",
+      "default:extract:232afccbc1cc8ed75358886eabc6d9c1"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760431847,
+    "_id": "chunk-0e1fb1697b96aac6ca56af809a7a706d"
+  },
+  "chunk-98edab2bedb985603fbc7f84904fcf81": {
+    "tokens": 20,
+    "content": "自動調整供電。AI 會根據天氣預測與城市用電",
+    "chunk_order_index": 3,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:bbd68ddde63e1eb82a70892f292779b1",
+      "default:extract:8369917aee64316ba88dd31b625653eb"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760431867,
+    "_id": "chunk-98edab2bedb985603fbc7f84904fcf81"
+  },
+  "chunk-d54fb97354ce8f6c2272949a2dce602d": {
+    "tokens": 20,
+    "content": "測與城市用電模式動態分配能源，使整個城市幾乎不再",
+    "chunk_order_index": 4,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:1976021c679381810a2fe7273e8c2c80",
+      "default:extract:fb283f98e45b73c095da3aa223ea0c4d"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760432175,
+    "_id": "chunk-d54fb97354ce8f6c2272949a2dce602d"
+  },
+  "chunk-21e95a5787bb300e174f44fc6773c827": {
+    "tokens": 20,
+    "content": "幾乎不再依賴傳統燃料。能源資料即時上傳至",
+    "chunk_order_index": 5,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:ec71e45741d05de0f9e39d0a062762dc",
+      "default:extract:084a86a0c76c0ff83226e061c70bdcce"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760432206,
+    "_id": "chunk-21e95a5787bb300e174f44fc6773c827"
+  },
+  "chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a": {
+    "tokens": 16,
+    "content": "即時上傳至雲端，用於後續決策分析。",
+    "chunk_order_index": 6,
+    "full_doc_id": "能源中心與智慧電網.txt",
+    "file_path": "./inputs/能源中心與智慧電網.txt",
+    "llm_cache_list": [
+      "default:extract:5bae672ad0cec6c0372244a4585d1b97",
+      "default:extract:ab7296a631c42853a90ae22c1c978e13"
+    ],
+    "create_time": 1760431608,
+    "update_time": 1760432221,
+    "_id": "chunk-eb8b6ea3bc1453edcd4ea2b06ecc025a"
+  },
+  "chunk-81197c2d02b3a7c54cbd498ce55a73c8": {
+    "tokens": 1,
+    "content": "。",
+    "chunk_order_index": 7,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:3d9341164cca73b5e36eb8093ce23fa3",
+      "default:extract:8b16b912523eba49c0637a676b4458f4"
+    ],
+    "update_time": 1760432227,
+    "_id": "chunk-81197c2d02b3a7c54cbd498ce55a73c8",
+    "create_time": 0
+  },
+  "chunk-20a883888d6e6da576d9ed5799f51f82": {
+    "tokens": 20,
+    "content": "所有基礎設施的運作數據都匯入雲端資料庫",
+    "chunk_order_index": 0,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:b6d49ea8c0ae718fca86ca58d3ce225e",
+      "default:extract:bdf41dfef27334a32a1ee55a406fc291"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760431922,
+    "_id": "chunk-20a883888d6e6da576d9ed5799f51f82"
+  },
+  "chunk-dc23edefa3222c7e1f133fef484a9781": {
+    "tokens": 20,
+    "content": "雲端資料庫。城市的 AI 模型不斷學習這些資訊，",
+    "chunk_order_index": 1,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:bd33f12e42904832ac1eabedfeeaaf39",
+      "default:extract:d2a7fafea8467454509b9a4dc00764a7"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760431939,
+    "_id": "chunk-dc23edefa3222c7e1f133fef484a9781"
+  },
+  "chunk-b0c54f369c803b8f3a3713f8be2e7886": {
+    "tokens": 20,
+    "content": "習這些資訊，模擬能源消耗、交通趨勢與人口活動。",
+    "chunk_order_index": 2,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:50f6cbc26f16a2705508c20ac53258cf",
+      "default:extract:fed0659216c68a016143acc968049526"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760431985,
+    "_id": "chunk-b0c54f369c803b8f3a3713f8be2e7886"
+  },
+  "chunk-0db6d0e150ebb29a169cbf3ed947c162": {
+    "tokens": 20,
+    "content": "勢與人口活動。資料科學家與政策制定者可在圖形化儀",
+    "chunk_order_index": 3,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:467aadba0f25a0ca261b3818963032db",
+      "default:extract:c0e3b8f623a486d1964c240d01eab469"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760432006,
+    "_id": "chunk-0db6d0e150ebb29a169cbf3ed947c162"
+  },
+  "chunk-1ab307d7c9fb2e7390c131fecbbb093c": {
+    "tokens": 20,
+    "content": "圖形化儀表板上觀察模型變化，甚至用它預測未",
+    "chunk_order_index": 4,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:c7d6379b793ebdb3e788b12e5b1d578a",
+      "default:extract:1c1aecf5d24e1b41f75cb3454e406caa"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760432237,
+    "_id": "chunk-1ab307d7c9fb2e7390c131fecbbb093c"
+  },
+  "chunk-cb8b67610b2e866a38483b1c8cf98192": {
+    "tokens": 20,
+    "content": "用它預測未來五年的能源需求。這個雲端系統也是所有",
+    "chunk_order_index": 5,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:78074f59a347708e5c30ce5329bc768c",
+      "default:extract:38df95e654975935ddd609aa64d188f9"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760432254,
+    "_id": "chunk-cb8b67610b2e866a38483b1c8cf98192"
+  },
+  "chunk-fa9cb72811d1150610f44d9fef96caba": {
+    "tokens": 16,
+    "content": "端系統也是所有 AI 助理的學習基礎。",
+    "chunk_order_index": 6,
+    "full_doc_id": "雲端資料與城市模型.txt",
+    "file_path": "./inputs/雲端資料與城市模型.txt",
+    "llm_cache_list": [
+      "default:extract:2773c661f0a946ff4ffe019da250a6e2",
+      "default:extract:f97d1d8e3e18d9a47394b7b3b68ac334"
+    ],
+    "create_time": 1760431609,
+    "update_time": 1760432267,
+    "_id": "chunk-fa9cb72811d1150610f44d9fef96caba"
+  },
+  "chunk-95ae7b1b40c69518b62e899cbc159a80": {
+    "tokens": 20,
+    "content": "城市的交通系統完全自動化。每輛自駕車都裝有",
+    "chunk_order_index": 0,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:beb564d5d8b7cd1199800c1b6183adb2",
+      "default:extract:6ac6e2a53d6c62246c6662d73a612c01"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432571,
+    "_id": "chunk-95ae7b1b40c69518b62e899cbc159a80"
+  },
+  "chunk-e51ef04049befa5a4f435dc76d642507": {
+    "tokens": 20,
+    "content": "�車都裝有感測器與 AI 模組，能與中央交通伺服",
+    "chunk_order_index": 1,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:76cc075a5e09055070df147e13026800",
+      "default:extract:4da76eeb1fd9dd8f6c076970945c11de"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432586,
+    "_id": "chunk-e51ef04049befa5a4f435dc76d642507"
+  },
+  "chunk-cbf263292bd9d2d51a3cecc79266412c": {
+    "tokens": 20,
+    "content": "中央交通伺服器通訊。當車輛電量不足時，系統",
+    "chunk_order_index": 2,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:ca6a337acfcc0d2873a6251182c9b9bc",
+      "default:extract:efa84c8ce60b23fa2829e0ce06763052"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432620,
+    "_id": "chunk-cbf263292bd9d2d51a3cecc79266412c"
+  },
+  "chunk-cd1c19cf4e7a3c4c12828f8710a1bf49": {
+    "tokens": 20,
+    "content": "不足時，系統會自動導航至能源中心附近的快速充電站。AI",
+    "chunk_order_index": 3,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:d428115451155f545d899f0bad310dd9",
+      "default:extract:1a2e21c11bda3c8c27197a2f2694b5c1"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432654,
+    "_id": "chunk-cd1c19cf4e7a3c4c12828f8710a1bf49"
+  },
+  "chunk-d77b85f67d8545f7d9d9d0c2f08951f8": {
+    "tokens": 20,
+    "content": "充電站。AI 還能根據交通流量、能源需求與天氣條",
+    "chunk_order_index": 4,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:df48c25e2a2c0e6235b9bc7d09057224",
+      "default:extract:44b24f1bb162f3cf670f72678c3d92f2"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432899,
+    "_id": "chunk-d77b85f67d8545f7d9d9d0c2f08951f8"
+  },
+  "chunk-92ce7e2ac1ee827e24cbddcd0827d402": {
+    "tokens": 20,
+    "content": "需求與天氣條件，協調整個城市的移動效率，讓交通與",
+    "chunk_order_index": 5,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:212bdf43b29ef8034404930dc4fd00c2",
+      "default:extract:253d06b105d0f2b7107abdf91a931e0c"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432921,
+    "_id": "chunk-92ce7e2ac1ee827e24cbddcd0827d402"
+  },
+  "chunk-cb78a44977dc8f4b53ea5d9b1de03249": {
+    "tokens": 12,
+    "content": "效率，讓交通與能源緊密結合。",
+    "chunk_order_index": 6,
+    "full_doc_id": "自駕交通與能源整合.txt",
+    "file_path": "./inputs/自駕交通與能源整合.txt",
+    "llm_cache_list": [
+      "default:extract:e7cb49689319fe6ba32c3b09dfd9767b",
+      "default:extract:8ce6055c00375c1201dd621c80a8bdc4"
+    ],
+    "create_time": 1760432234,
+    "update_time": 1760432934,
+    "_id": "chunk-cb78a44977dc8f4b53ea5d9b1de03249"
+  },
+  "chunk-197b44a9ab3ec13c1fc107b407614153": {
+    "tokens": 20,
+    "content": "每位市民都有個人化的 AI 助理，能分析其生活模式並",
+    "chunk_order_index": 0,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:ee8538fde2d6866014c50b6bf5deca23",
+      "default:extract:cb29a8aa8964571a70fdb22655f2f3f1"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432671,
+    "_id": "chunk-197b44a9ab3ec13c1fc107b407614153"
+  },
+  "chunk-67fa9cfe1b510625e6077a975e5ac8b2": {
+    "tokens": 20,
+    "content": "分析其生活模式並提供節能、健康與出行建議。當助理�",
+    "chunk_order_index": 1,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:ee041e0b1d01cd030923bec33636e2fd",
+      "default:extract:8948738389a3dc55f46ef052f733a0bc"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432692,
+    "_id": "chunk-67fa9cfe1b510625e6077a975e5ac8b2"
+  },
+  "chunk-ec21914d8f0fba3cf115a0d1985925ef": {
+    "tokens": 20,
+    "content": "。當助理偵測到城市交通壅塞或能源尖峰時，會",
+    "chunk_order_index": 2,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:c5232c9fbb9a1a54ef34b887e4f44507",
+      "default:extract:7ba6dd6302879a39fa64c897c5bfc6e4"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432709,
+    "_id": "chunk-ec21914d8f0fba3cf115a0d1985925ef"
+  },
+  "chunk-8092ed93e79d2eda500f1dbe41548c7f": {
+    "tokens": 20,
+    "content": "尖峰時，會主動建議使用大眾運輸或調整家電",
+    "chunk_order_index": 3,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:061379d28147e717b25eb9c1a6790064",
+      "default:extract:33c105c856d8f57bc7baa5e3850da598"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432719,
+    "_id": "chunk-8092ed93e79d2eda500f1dbe41548c7f"
+  },
+  "chunk-5b01ab536505f871246e840bf6212428": {
+    "tokens": 20,
+    "content": "或調整家電用電時間。這些助理與城市雲端模型同步",
+    "chunk_order_index": 4,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:1402242def2bc5c6e51c5517de6311a5",
+      "default:extract:068cb53a6303f1ec468b543a3bdb12bd"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432964,
+    "_id": "chunk-5b01ab536505f871246e840bf6212428"
+  },
+  "chunk-67889f9c59eaba99a839486e0f8374c9": {
+    "tokens": 20,
+    "content": "雲端模型同步更新，使個人行為與整體城市運作形成正向",
+    "chunk_order_index": 5,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:7425914202feab2502fc5efc7c09d29a",
+      "default:extract:3f5fb565f4c26c7948679d6250e0ac1f"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760432987,
+    "_id": "chunk-67889f9c59eaba99a839486e0f8374c9"
+  },
+  "chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec": {
+    "tokens": 8,
+    "content": "運作形成正向循環。",
+    "chunk_order_index": 6,
+    "full_doc_id": "公民AI助理的角色.txt",
+    "file_path": "./inputs/公民AI助理的角色.txt",
+    "llm_cache_list": [
+      "default:extract:63d553f7367146817b17cfd7985856bd",
+      "default:extract:da2742ab21a92deed4afbc2eac55f51e"
+    ],
+    "create_time": 1760432276,
+    "update_time": 1760433010,
+    "_id": "chunk-d14bf3acc919af8aa0cf4c8d2b0e3cec"
+  },
+  "chunk-f9da756f2ddae291698775218f4a8106": {
+    "tokens": 20,
+    "content": "城市的永續發展委員會依賴 AI 模擬平台來制定政策",
+    "chunk_order_index": 0,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:2c9b62d917f209c694705043a726c6f7",
+      "default:extract:05b3374b59d81528abaa5e43e3c13bad"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433146,
+    "_id": "chunk-f9da756f2ddae291698775218f4a8106"
+  },
+  "chunk-0e448ab5dd5060530851a569d04fa8c2": {
+    "tokens": 20,
+    "content": "�平台來制定政策。透過模擬不同策略，委員會能預測",
+    "chunk_order_index": 1,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:a359bf727ea29d61849b5d7edae4221a",
+      "default:extract:53ebf6900cf45ca3c54fcc32a94d8c14"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433169,
+    "_id": "chunk-0e448ab5dd5060530851a569d04fa8c2"
+  },
+  "chunk-de69eaf6daa940c78737f99950efcf1d": {
+    "tokens": 20,
+    "content": "員會能預測新法規對能源中心、交通網絡與市民生活的",
+    "chunk_order_index": 2,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:898d8757e7cab29a6900d18c3e35978d",
+      "default:extract:65640630ab252a2c209444f70fb44ded"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433189,
+    "_id": "chunk-de69eaf6daa940c78737f99950efcf1d"
+  },
+  "chunk-d5edadc5b8bd3927a0b9de3fb2b64256": {
+    "tokens": 20,
+    "content": "與市民生活的影響。決策過程透明公開，AI 提供的報",
+    "chunk_order_index": 3,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:dc33921abd3636a48438dbb97ac4b0e4",
+      "default:extract:f31d8ce4e33328d3e9bb73cff89ff38a"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433210,
+    "_id": "chunk-d5edadc5b8bd3927a0b9de3fb2b64256"
+  },
+  "chunk-60efa47a9588fffe56a77d9403dbaa0b": {
+    "tokens": 20,
+    "content": "AI 提供的報告與模型結果皆可供公民查閱。這種結",
+    "chunk_order_index": 4,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:379c69264adfc2519306105c28ee77f1",
+      "default:extract:3eecdf6f9a4ab11764b6db0173cfa0ea"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433343,
+    "_id": "chunk-60efa47a9588fffe56a77d9403dbaa0b"
+  },
+  "chunk-5ca3a361bf8a3629e7b7faf0314c7808": {
+    "tokens": 20,
+    "content": "閱。這種結合科技與治理的方式，讓城市更具韌性與",
+    "chunk_order_index": 5,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:2ec3b6073d09f2f63f058dfa853f64d3",
+      "default:extract:5c713150f1a8a9c8780a87c2b156653d"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433353,
+    "_id": "chunk-5ca3a361bf8a3629e7b7faf0314c7808"
+  },
+  "chunk-ef59e6cbf873762ec0f5e7f82db9f651": {
+    "tokens": 7,
+    "content": "具韌性與效率。",
+    "chunk_order_index": 6,
+    "full_doc_id": "政策與永續決策委員會.txt",
+    "file_path": "./inputs/政策與永續決策委員會.txt",
+    "llm_cache_list": [
+      "default:extract:07b5cff6ec2211fbac79f02edefcf146",
+      "default:extract:af4505806bebd249110cedfc3fc7cb7e"
+    ],
+    "create_time": 1760432939,
+    "update_time": 1760433363,
+    "_id": "chunk-ef59e6cbf873762ec0f5e7f82db9f651"
+  }
+}

@@ -1,0 +1,370 @@
+{
+  "能源中心與智慧電網.txt": {
+    "relation_pairs": [
+      [
+        "能源中心",
+        "風力渦輪"
+      ],
+      [
+        "AI",
+        "Automatic Power Adjustment"
+      ],
+      [
+        "Automatic Power Adjustment",
+        "Power Supply"
+      ],
+      [
+        "Decision Analysis",
+        "Real-Time Upload"
+      ],
+      [
+        "AI",
+        "Energy Center"
+      ],
+      [
+        "Cloud",
+        "Decision Analysis"
+      ],
+      [
+        "Automatic Adjustment",
+        "Smart Grid"
+      ],
+      [
+        "Energy Center",
+        "Future City"
+      ],
+      [
+        "AI",
+        "Weather Forecast"
+      ],
+      [
+        "Smart Grid",
+        "Turbine and Energy Storage System"
+      ],
+      [
+        "City",
+        "Dynamic Energy Allocation"
+      ],
+      [
+        "AI",
+        "City Electricity Usage"
+      ],
+      [
+        "太陽能板",
+        "能源中心"
+      ],
+      [
+        "Dynamic Energy Allocation",
+        "Electricity Usage Pattern"
+      ],
+      [
+        "Cloud",
+        "Real-Time Upload"
+      ]
+    ],
+    "count": 15,
+    "create_time": 1760432233,
+    "update_time": 1760432233,
+    "_id": "能源中心與智慧電網.txt"
+  },
+  "雲端資料與城市模型.txt": {
+    "relation_pairs": [
+      [
+        "Data Scientists",
+        "Graphical Instrument"
+      ],
+      [
+        "AI助理",
+        "端系統"
+      ],
+      [
+        "Cloud System",
+        "Energy Demand"
+      ],
+      [
+        "Population Activities",
+        "Trend"
+      ],
+      [
+        "Policy Makers",
+        "Population Activities"
+      ],
+      [
+        "Graphical Instrument",
+        "Policy Makers"
+      ],
+      [
+        "Cloud Database",
+        "Operation Data"
+      ],
+      [
+        "Graphical Dashboard",
+        "Model"
+      ],
+      [
+        "City's AI Model",
+        "Cloud Database"
+      ],
+      [
+        "Infrastructure",
+        "Operation Data"
+      ],
+      [
+        "Data Scientists",
+        "Trend"
+      ]
+    ],
+    "count": 11,
+    "create_time": 1760432276,
+    "update_time": 1760432276,
+    "_id": "雲端資料與城市模型.txt"
+  },
+  "自駕交通與能源整合.txt": {
+    "relation_pairs": [
+      [
+        "AI",
+        "System"
+      ],
+      [
+        "Self-Driving Car",
+        "Urban Transportation System"
+      ],
+      [
+        "Fast Charging Station",
+        "System"
+      ],
+      [
+        "AI Module",
+        "Vehicle"
+      ],
+      [
+        "AI Module",
+        "Central Traffic Server"
+      ],
+      [
+        "Central Traffic Server",
+        "Communication"
+      ],
+      [
+        "AI",
+        "充電站"
+      ],
+      [
+        "System",
+        "Vehicle Battery Low"
+      ],
+      [
+        "Sensor",
+        "Vehicle"
+      ],
+      [
+        "AI",
+        "能源需求"
+      ],
+      [
+        "Efficiency",
+        "Energy"
+      ],
+      [
+        "Efficiency",
+        "Transportation"
+      ],
+      [
+        "Demand",
+        "Mobility Efficiency"
+      ],
+      [
+        "Mobility Efficiency",
+        "Weather Conditions"
+      ],
+      [
+        "Mobility Efficiency",
+        "Transportation"
+      ],
+      [
+        "AI",
+        "交通流量"
+      ],
+      [
+        "AI",
+        "天氣條"
+      ],
+      [
+        "Energy Center",
+        "Fast Charging Station"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1760432939,
+    "update_time": 1760432939,
+    "_id": "自駕交通與能源整合.txt"
+  },
+  "公民AI助理的角色.txt": {
+    "relation_pairs": [
+      [
+        "Peak Hours",
+        "Public Transportation"
+      ],
+      [
+        "Health Recommendations",
+        "Lifestyle Analysis"
+      ],
+      [
+        "Assistant",
+        "Energy Peaks"
+      ],
+      [
+        "Assistants",
+        "Home Appliances"
+      ],
+      [
+        "Citizen",
+        "Personalized AI Assistant"
+      ],
+      [
+        "整體城市運作",
+        "雲端模型"
+      ],
+      [
+        "個人行為",
+        "整體城市運作"
+      ],
+      [
+        "Assistant",
+        "Travel Advice"
+      ],
+      [
+        "Assistant",
+        "Urban Traffic Congestion"
+      ],
+      [
+        "Assistants",
+        "City Cloud Model"
+      ],
+      [
+        "Energy Conservation",
+        "Lifestyle Analysis"
+      ],
+      [
+        "個人行為",
+        "雲端模型"
+      ],
+      [
+        "Lifestyle Pattern",
+        "Personalized AI Assistant"
+      ],
+      [
+        "Assistant",
+        "Lifestyle Analysis"
+      ],
+      [
+        "Lifestyle Analysis",
+        "Travel Advice"
+      ],
+      [
+        "Assistant",
+        "Energy Conservation"
+      ],
+      [
+        "正向循環",
+        "運作"
+      ],
+      [
+        "Assistant",
+        "Health Recommendations"
+      ],
+      [
+        "Adjusting Appliances",
+        "Peak Hours"
+      ],
+      [
+        "Operation",
+        "Positive Cycle"
+      ]
+    ],
+    "count": 20,
+    "create_time": 1760433013,
+    "update_time": 1760433013,
+    "_id": "公民AI助理的角色.txt"
+  },
+  "政策與永續決策委員會.txt": {
+    "relation_pairs": [
+      [
+        "Citizens",
+        "Model Results"
+      ],
+      [
+        "Integration of Technology and Governance",
+        "Urban Resilience"
+      ],
+      [
+        "Citizen Life Impact",
+        "Decision-Making Process"
+      ],
+      [
+        "AI",
+        "Model Results"
+      ],
+      [
+        "城市的永續發展委員會",
+        "政策"
+      ],
+      [
+        "Citizens",
+        "Reports"
+      ],
+      [
+        "Committee",
+        "Energy Center"
+      ],
+      [
+        "AI模擬平台",
+        "城市的永續發展委員會"
+      ],
+      [
+        "Committee",
+        "Platform"
+      ],
+      [
+        "AI",
+        "Reports"
+      ],
+      [
+        "AI",
+        "Decision-Making Process"
+      ],
+      [
+        "Committee",
+        "Strategy"
+      ],
+      [
+        "Prediction",
+        "Strategy"
+      ],
+      [
+        "AI",
+        "Report"
+      ],
+      [
+        "Committee",
+        "New Regulations"
+      ],
+      [
+        "Committee",
+        "Transportation Network"
+      ],
+      [
+        "Citizens' Lives",
+        "Committee"
+      ],
+      [
+        "Platform",
+        "Policy"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1760433368,
+    "update_time": 1760433368,
+    "_id": "政策與永續決策委員會.txt"
+  }
+}
