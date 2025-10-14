@@ -85,7 +85,7 @@ sh run-ms-graphrag.sh
 python ms-graphrag-example/convert_graphrag_results.py
 ```
 #### 運行 graphrag_eval_ntnu 計算範例
-使用 get_ans.py 得到以下類似的 json 檔案 (ans.json)
+使用 graphrag_eval_ntnu/get_ans.py 得到以下類似的 json 檔案 (ans.json)
 ```
 [
     {
