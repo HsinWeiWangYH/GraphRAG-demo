@@ -57,7 +57,7 @@ cp data/*.txt graphragdemo/input/
 參考 ms-graphrag-example/
 
 修改 `graphragdemo/settings.yaml` 與 `.env` 參數。
-#### 修改 search.py 程式碼導出程式
+#### 修改 search.py 程式碼導出 檢索結果
 參考 ms-graphrag-example/
 
 將 ms-graphrag/graphrag/query/structured_search/local_search/search.py 內容用 ms-graphrag-example/search_local.py 替換
@@ -83,6 +83,7 @@ graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理�
 #### 批次執行每一次查詢
 寫一個 shell 批次執行 並 將所有結果存在 ms-graphrag-results/
 之後轉換成 graphrag_eval_ntnu/eval_graphrag.py 適用格式
+以 convert_graphrag_results.py 將 相關文件 (sources) 轉換成json
 
 ```
 sh run-ms-graphrag.sh
