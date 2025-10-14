@@ -82,7 +82,9 @@ graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理�
 
 #### 批次執行每一次查詢
 寫一個 shell 批次執行 並 將所有結果存在 ms-graphrag-results/
+
 之後轉換成 graphrag_eval_ntnu/eval_graphrag.py 適用格式
+
 以 convert_graphrag_results.py 將 相關文件 (sources) 轉換成json
 
 ```
