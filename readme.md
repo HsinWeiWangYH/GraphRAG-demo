@@ -239,6 +239,7 @@ sh run-lightrag.sh
 python ms-graphrag-example/convert_graphrag_results.py
 ```
 查詢結果csv儲存到 lightrag-results/
+
 lightrag-results/graphrag_results.json 儲存 查詢結果 json 檔案可用於評分
 
 -----
