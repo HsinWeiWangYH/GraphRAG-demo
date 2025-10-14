@@ -1,20 +1,18 @@
-ollama==0.4.9
 # --- 基本環境 (Python 3.11) ---
-# GraphRAG 官方核心套件
-graphrag>=1.0.0
+ollama==0.4.9
+# --- GraphRAG ---
+# graphrag>=1.0.0
 
-# 向量資料庫 (GraphRAG 內部預設使用)
+# --- db --- 
 lancedb>=0.6.8
 pyarrow>=17.0.0
 duckdb>=1.0.0
 pandas>=2.2.2
 
-# --- Neo4j 模式（可選） ---
-# 如果只要跑 Microsoft GraphRAG，可以註解這幾行
+# --- Neo4j ---
 neo4j-graphrag[ollama]>=0.1.0
 neo4j>=5.23.0
 
-# --- 其他常用工具（方便 debug 或讀取 parquet / LanceDB）---
 numpy
 rich
 rapidfuzz

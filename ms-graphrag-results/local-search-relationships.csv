@@ -1,0 +1,22 @@
+query,id,source,target,description,weight,links,in_context
+請用要點總結這些文件的主題,0,CLOUD SYSTEM,AI MODEL,"The cloud system provides the foundational data for the AI model's learning process
+The AI model relies on the cloud system for data storage and learning",10.0,2,True
+請用要點總結這些文件的主題,2,DATA SCIENTISTS,AI MODEL,Data scientists use the AI model's outputs to analyze trends and make predictions,7.0,2,True
+請用要點總結這些文件的主題,4,POLICY MAKERS,AI MODEL,Policy makers utilize insights from the AI model to forecast energy demand,7.0,1,True
+請用要點總結這些文件的主題,5,AI MODEL,CITY,The AI model is part of the city's infrastructure,7.0,1,True
+請用要點總結這些文件的主題,3,DATA SCIENTISTS,POLICY MAKERS,Both data scientists and policy makers use the graphical dashboard to observe the AI model,1.0,2,True
+請用要點總結這些文件的主題,1,CLOUD SYSTEM,AI ASSISTANTS,The cloud system serves as the learning base for AI assistants,9.0,2,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,0,CLOUD SYSTEM,AI MODEL,"The cloud system provides the foundational data for the AI model's learning process
+The AI model relies on the cloud system for data storage and learning",10.0,3,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,2,DATA SCIENTISTS,AI MODEL,Data scientists use the AI model's outputs to analyze trends and make predictions,7.0,3,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,4,POLICY MAKERS,AI MODEL,Policy makers utilize insights from the AI model to forecast energy demand,7.0,3,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,5,AI MODEL,CITY,The AI model is part of the city's infrastructure,7.0,,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,3,DATA SCIENTISTS,POLICY MAKERS,Both data scientists and policy makers use the graphical dashboard to observe the AI model,1.0,1,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,1,CLOUD SYSTEM,AI ASSISTANTS,The cloud system serves as the learning base for AI assistants,9.0,,True
+每位市民都有個人化的 AI 助理，能做甚麼?,0,CLOUD SYSTEM,AI MODEL,"The cloud system provides the foundational data for the AI model's learning process
+The AI model relies on the cloud system for data storage and learning",10.0,3,True
+每位市民都有個人化的 AI 助理，能做甚麼?,2,DATA SCIENTISTS,AI MODEL,Data scientists use the AI model's outputs to analyze trends and make predictions,7.0,3,True
+每位市民都有個人化的 AI 助理，能做甚麼?,4,POLICY MAKERS,AI MODEL,Policy makers utilize insights from the AI model to forecast energy demand,7.0,3,True
+每位市民都有個人化的 AI 助理，能做甚麼?,5,AI MODEL,CITY,The AI model is part of the city's infrastructure,7.0,,True
+每位市民都有個人化的 AI 助理，能做甚麼?,3,DATA SCIENTISTS,POLICY MAKERS,Both data scientists and policy makers use the graphical dashboard to observe the AI model,1.0,1,True
+每位市民都有個人化的 AI 助理，能做甚麼?,1,CLOUD SYSTEM,AI ASSISTANTS,The cloud system serves as the learning base for AI assistants,9.0,,True

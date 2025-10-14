@@ -13,6 +13,9 @@
 conda create -n graphrag-denv python=3.11 -y
 conda activate graphrag-denv
 pip install -r requirements.txt
+git clone https://github.com/microsoft/graphrag.git ms-graphrag
+cd ms-graphrag
+pip install -e .
 ```
 
 #### 安裝 LLM 模型（使用本地 Ollama）
@@ -53,17 +56,58 @@ cp data/*.txt graphragdemo/input/
 #### 修改 ollama 參數
 參考 ms-graphrag-example/
 修改 `graphragdemo/settings.yaml` 與 `.env` 參數。
+將 ms-graphrag/graphrag/query/structured_search/local_search/search.py 內容用 ms-graphrag-example/search_local.py 替換
+將 ms-graphrag/graphrag/query/structured_search/global_search/search.py 內容用 ms-graphrag-example/search_global.py 替換
+
+以下程式碼 會在search完後自動終止
+若希望產生 回答 請註解
+```
+sys.exit("All results have been successfully retrieved and saved to ms-graphrag-results. Execution stopped.") 
+```
 
 #### 建立索引
 ```
 graphrag index --root ./graphragdemo
 ```
 
-#### 執行 global / local 查詢
+#### global / local 查詢 範例
 ```
 graphrag query --root graphragdemo/ --method global --query "請用要點總結這些文件的主題"
 graphrag query --root graphragdemo/ --method local --query "請解釋 AI 管理的能源中心"
 ```
+
+#### 批次執行每一次查詢
+寫一個 shell 批次執行 並 將所有結果存在 ms-graphrag-results/
+之後轉換成 graphrag_eval_ntnu/eval_graphrag.py 適用格式
+
+```
+sh run-ms-graphrag.sh
+python ms-graphrag-example/convert_graphrag_results.py
+```
+#### 運行 graphrag_eval_ntnu 計算範例
+使用 get_ans.py 得到以下類似的 json 檔案 (ans.json)
+```
+[
+    {
+        "query": "請用要點總結這些文件的主題",
+        "video_name": "video001",
+        "ans": "標準答案段落文字"
+    },
+    ...
+]
+```
+ms-graphrag-results/graphrag_results.json 儲存 查詢結果 json 檔案
+```
+[
+    {
+        "query": "請用要點總結這些文件的主題",
+        "source": "城市的 AI 模型不斷學習這些資訊，模擬能源消耗、交通趨勢與人口活動"
+    },
+    ...
+]
+```
+將 graphrag_eval_ntnu/eval_graphrag.py 跟 ms-graphrag-example/run-eval.py 放在一起
+運行 ms-graphrag-example/run-eval.py 
 
 #### 匯出與檢視 GraphRAG 資料庫 (check/ 運行)
 

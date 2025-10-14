@@ -1,0 +1,19 @@
+query,id,entity,description,number of relationships,in_context
+請用要點總結這些文件的主題,3,AI MODEL,,4,True
+請用要點總結這些文件的主題,5,CITY,,1,True
+請用要點總結這些文件的主題,4,AI ASSISTANTS,AI assistants that learn from the cloud system,1,True
+請用要點總結這些文件的主題,2,POLICY MAKERS,Individuals who use the graphical dashboard to observe model changes and predict future energy demand,2,True
+請用要點總結這些文件的主題,0,CLOUD SYSTEM,A cloud system that serves as the learning base for all AI assistants and stores infrastructure operation data,2,True
+請用要點總結這些文件的主題,1,DATA SCIENTISTS,Professionals who analyze the AI model's changes using a graphical dashboard,2,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,4,AI ASSISTANTS,AI assistants that learn from the cloud system,1,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,0,CLOUD SYSTEM,A cloud system that serves as the learning base for all AI assistants and stores infrastructure operation data,2,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,2,POLICY MAKERS,Individuals who use the graphical dashboard to observe model changes and predict future energy demand,2,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,1,DATA SCIENTISTS,Professionals who analyze the AI model's changes using a graphical dashboard,2,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,3,AI MODEL,,4,True
+每位市民都有個人化的 AI 助理，能分析其生活模式用來做甚麼?,5,CITY,,1,True
+每位市民都有個人化的 AI 助理，能做甚麼?,4,AI ASSISTANTS,AI assistants that learn from the cloud system,1,True
+每位市民都有個人化的 AI 助理，能做甚麼?,0,CLOUD SYSTEM,A cloud system that serves as the learning base for all AI assistants and stores infrastructure operation data,2,True
+每位市民都有個人化的 AI 助理，能做甚麼?,1,DATA SCIENTISTS,Professionals who analyze the AI model's changes using a graphical dashboard,2,True
+每位市民都有個人化的 AI 助理，能做甚麼?,2,POLICY MAKERS,Individuals who use the graphical dashboard to observe model changes and predict future energy demand,2,True
+每位市民都有個人化的 AI 助理，能做甚麼?,3,AI MODEL,,4,True
+每位市民都有個人化的 AI 助理，能做甚麼?,5,CITY,,1,True
