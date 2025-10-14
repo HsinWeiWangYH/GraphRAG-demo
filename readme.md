@@ -192,13 +192,15 @@ python export_graph-neo4j.py
 ```
 .
 ├── data/                           # 原始輸入文件
-├── ms-graphrag-example             # 適用 ollama 的settings.yaml & .env 範例 
+├── ms-graphrag-example             # 適用 ollama 的 graphrag 修改範例 含 settings.yaml & .env
+├── ms-graphrag-results             # 儲存 graphrag 查詢結果
 ├── graphragdemo/                   # GraphRAG 工作資料夾
 ├── neo4jdemo/                      # Neo4j 工作資料夾
 ├── check/ 
 │   └── export_db-graphrag.py           # 匯出 GraphRAG 資料
 │   └── export_graph-neo4j.py           # 匯出 Neo4j 圖資料
 ├── requirements.txt
+├── run-ms-graphrag.sh                  # 運行 graphrag 查詢結果
 └── readme.md                       # 本文件
 ```
 
