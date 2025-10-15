@@ -150,11 +150,11 @@ cp -r data/ lightrag-demo/inputs
 #### > 修改 ollama 參數 (專案目錄)
 參考 lightrag-example/ 修改 `.env` 參數。
 
-`.env` 請放在運行程式時的資料夾中
+將 `.env` 放在運行程式時的資料夾中
 ```
 cp lightrag-example/env.example lightrag-demo/.env
 ```
-#### > 更新程式碼 (專案目錄)
+#### > 更新程式碼
 參考 lightrag-example/ 替換 lightrag.py
 * 將 LightRAG/lightrag/lightrag.py 內容用 lightrag-example/lightrag-example.py  替換
 
@@ -195,7 +195,7 @@ python run-eval.py -ans ans.json --result ../lightrag-results/graphrag_results.j
 
 ### 📦 使用 Neo4j 建立圖形資料庫
 
-#### > 初始化
+#### > 初始化 (專案目錄)
 啟動 Neo4j Docker 容器
 ```
 docker run -d \
@@ -206,19 +206,19 @@ docker run -d \
   neo4j:5.20
 ```
 
-準備資料
+準備資料 (專案目錄)
 ```
 mkdir -p neo4jdemo
 cp -r data/ neo4jdemo/data/
 ```
 
-#### > 建立知識圖譜
+#### > 建立知識圖譜 (neo4jdemo/)
 
 ```
 python neo4jdemo/demo_build_graph.py build
 ```
 
-#### > 建立向量索引（Neo4j 內部）
+#### > 建立向量索引（Neo4j docker 內部）
 
 進入容器：
 
@@ -244,7 +244,7 @@ OPTIONS {
 : exit
 ```
 
-#### > 執行查詢
+#### > 執行查詢 (neo4jdemo/)
 
 使用以下指令向 LLM 提問：
 
@@ -259,9 +259,7 @@ python export_graph-neo4j.py
 ```
 
 ---
-
 ### 架構
-
 ```
 .
 ├── data/                           # 原始輸入資料
