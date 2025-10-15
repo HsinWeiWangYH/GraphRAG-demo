@@ -76,7 +76,7 @@ cp data/*.txt graphragdemo/input/
 sys.exit("All results have been successfully retrieved and saved to ms-graphrag-results. Execution stopped.") 
 ```
 
-#### > 建立索引  (專案目錄)
+#### > 建立索引 (專案目錄)
 ```
 graphrag index --root ./graphragdemo
 ```
@@ -206,7 +206,7 @@ docker run -d \
   neo4j:5.20
 ```
 
-準備資料 (專案目錄)
+準備資料
 ```
 mkdir -p neo4jdemo
 cp -r data/ neo4jdemo/data/
@@ -218,7 +218,7 @@ cp -r data/ neo4jdemo/data/
 python neo4jdemo/demo_build_graph.py build
 ```
 
-#### > 建立向量索引（Neo4j docker 內部）
+#### > 建立向量索引 (Neo4j docker 內部)
 
 進入容器：
 
@@ -252,7 +252,7 @@ OPTIONS {
 python neo4jdemo/demo_build_graph.py "請解釋 AI 管理的能源中心"
 ```
 
-#### > [其他] 匯出現有的圖形資料庫 (check/ 運行)
+#### > [其他] 匯出現有的圖形資料庫 (check/)
 
 ```
 python export_graph-neo4j.py
