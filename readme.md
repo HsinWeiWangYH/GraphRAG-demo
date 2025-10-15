@@ -215,7 +215,7 @@ cp -r data/ neo4jdemo/data/
 #### > 建立知識圖譜 (neo4jdemo/)
 
 ```
-python neo4jdemo/demo_build_graph.py build
+python demo_build_graph.py build
 ```
 
 #### > 建立向量索引 (Neo4j docker 內部)
@@ -249,7 +249,7 @@ OPTIONS {
 使用以下指令向 LLM 提問：
 
 ```
-python neo4jdemo/demo_build_graph.py "請解釋 AI 管理的能源中心"
+python demo_build_graph.py "請解釋 AI 管理的能源中心"
 ```
 
 #### > [其他] 匯出現有的圖形資料庫 (check/)
