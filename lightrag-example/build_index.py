@@ -3,12 +3,11 @@ import asyncio
 from lightrag import LightRAG
 from lightrag.llm.ollama import ollama_model_complete, ollama_embed
 from lightrag.kg.shared_storage import initialize_pipeline_status
+from dotenv import load_dotenv
+load_dotenv()
 
 WORKING_DIR = "./rag_storage"
 DOCS_DIR = "./inputs"
-
-from dotenv import load_dotenv
-load_dotenv()
 
 class OllamaEmbeddingWrapper:
     def __init__(self, embed_model: str, embedding_dim: int):

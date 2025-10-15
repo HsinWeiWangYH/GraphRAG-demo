@@ -1,10 +1,10 @@
 import asyncio
+import sys, argparse
 from lightrag import LightRAG, QueryParam
 from lightrag.utils import setup_logger
 from lightrag.llm.ollama import ollama_model_complete, ollama_embed
 from lightrag.utils import EmbeddingFunc
 from lightrag.kg.shared_storage import initialize_pipeline_status
-
 from dotenv import load_dotenv
 load_dotenv()
 
@@ -14,14 +14,11 @@ async def init_rag(working_dir: str, llm_model: str, embed_model: str, num_ctx: 
     """
     setup_logger("lightrag", level="INFO")
 
-    # 建立 embedding 函數
     embedding_func = EmbeddingFunc(
-        embedding_dim=1024,  # bge-m3 的向量維度是 1024
-        max_token_size=8192,  # 可自行調整
+        embedding_dim=1024,
+        max_token_size=8192,
         func=lambda texts: ollama_embed(texts, embed_model=embed_model),
     )
-
-    # 設定 LLM context 長度
     llm_kwargs = {"options": {"num_ctx": num_ctx}}
 
     rag = LightRAG(
@@ -43,10 +40,6 @@ def run_query(working_dir: str, question: str, mode: str = "global"):
     param = QueryParam(mode=mode)
     result = rag.query(question, param=param)
     return result
-
-
-import argparse
-import sys
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Run RAG query")
